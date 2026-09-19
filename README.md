@@ -18,6 +18,15 @@ fynd är ett fynd, och skriver om det på begäran.
 sannolikt det är att en text är AI-genererad, för det vet det inte, och det
 framställer aldrig AI-text som människoskriven.
 
+**Vad det fångar, mätt i blindtest:** den uppenbara AI-tonen. Chattregistret,
+marknadsföringsslopet, de översatta konstruktionerna. Svensk text i det
+registret får 85 av 100, en text skriven av en människa får 0.
+
+**Vad det inte fångar:** svenska som en modell skrivit med omsorg. I blindtest
+mot tio riksdagsmotioner från 2020 fick omsorgsfullt skrivna AI-texter samma
+poäng som människorna. Hela testet, inklusive det som underkändes, ligger i
+[test/RESULTAT.md](test/RESULTAT.md).
+
 ## Det som skiljer den från en översatt engelsk ordlista
 
 Det mesta som avslöjar svensk AI-text finns inte på någon engelsk lista, för

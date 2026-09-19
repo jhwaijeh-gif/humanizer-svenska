@@ -21,8 +21,14 @@ Svensk AI-text är oftast tänkt på engelska och skriven på svenska. Det syns 
 strukturen före det syns i ordvalet. Den här skillen letar efter det, mäter det
 som går att mäta, och skriver om det som bör skrivas om.
 
-**Vad den gör:** svensk stilredigering.
-**Vad den inte gör:** hjälper text att undgå AI-detektorer. Verktyget säger
+**Vad den gör:** svensk stilredigering. Den fångar den uppenbara AI-tonen,
+alltså chattregistret och marknadsföringsslopet. Det är mätt: sådan text får
+85 av 100, mänsklig text får 0.
+
+**Vad den inte gör:** hittar svenska som en modell skrivit med omsorg. I
+blindtest mot tio riksdagsmotioner från 2020 fick omsorgsfulla AI-texter samma
+poäng som människorna. Lova aldrig mer än så. Den hjälper heller inte text att
+undgå AI-detektorer. Verktyget säger
 aldrig hur sannolikt det är att en text är AI-genererad, för det vet det inte,
 och det framställer aldrig AI-text som människoskriven. Frågar någon efter det,
 säg att skillen inte gör det och erbjud stilredigeringen i stället.

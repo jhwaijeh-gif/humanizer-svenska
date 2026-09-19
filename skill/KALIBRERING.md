@@ -1,6 +1,14 @@
 # Kalibrering: varför siffrorna är riktvärden
 
-**Ingen tröskel i det här verktyget är kalibrerad mot en svensk korpus.**
+**Rytmtrösklarna är kalibrerade mot tio äkta människotexter i en genre.
+Allt annat är riktvärden.**
+
+Den 19 september 2026 kördes ett blindtest mot tio riksdagsmotioner från 2020.
+Lägsta spridning i meningslängd bland dem var 5,5 ord, och verktygets tröskel
+låg på 6,0 till 7,0 beroende på profil. Den flaggade alltså korrekt mänsklig
+svenska. Trösklarna sänktes till 5,0. Samma test visade att LiU-mätningens
+rytmfynd inte replikerar mot en modell från 2026, varför rytmen vägdes ner från
+25 till 12 poäng. Se `../test/RESULTAT.md`.
 
 Det står i utdatan varje gång verktyget körs, och det står här. Det är den
 viktigaste begränsningen och den ska inte döljas.

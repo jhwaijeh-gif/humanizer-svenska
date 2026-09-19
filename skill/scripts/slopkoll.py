@@ -24,9 +24,20 @@ TVÅ AXLAR, som aldrig blandas ihop:
                  [observerat]  flera oberoende svenska källor pekar ut draget,
                                ingen har mätt frekvensen.
 
-INGEN TRÖSKEL HÄR ÄR KALIBRERAD mot en svensk korpus. Siffrorna är riktvärden.
-Se KALIBRERING.md. Verktyget säger aldrig hur sannolikt det är att en text är
-AI-genererad, för det vet det inte.
+VAD VERKTYGET FÅNGAR, OCH VAD DET INTE FÅNGAR
+
+Det fångar den uppenbara AI-tonen: chattregistret, marknadsföringsslopet,
+de översatta konstruktionerna. Det är vad de flesta menar när de säger att en
+text låter som AI, och det är vad verktyget är byggt för.
+
+Det fångar INTE svenska som en modell skrivit med omsorg. Mätt i ett blindtest
+mot tio riksdagsmotioner från 2020: AI-texter skrivna med omsorg fick lägre
+poäng än människorna. Se test/RESULTAT.md. Verktyget är en stilredigerare,
+ingen detektor, och det säger aldrig hur sannolikt det är att en text är
+AI-genererad.
+
+Rytmtrösklarna är kalibrerade mot tio äkta människotexter i en genre.
+Resten är riktvärden. Se KALIBRERING.md.
 """
 
 import argparse
@@ -88,7 +99,7 @@ PROFILER = {
     "allman": {
         "namn": "allmän text",
         "max_median_mening": 22,
-        "min_spridning": 6.0,
+        "min_spridning": 5.0,
         "max_punktlistandel": 0.30,
         "kraver_vi": False,
         "kraver_du": False,
@@ -132,7 +143,7 @@ PROFILER = {
     "myndighet": {
         "namn": "myndighetstext",
         "max_median_mening": 20,
-        "min_spridning": 6.0,
+        "min_spridning": 5.0,
         "max_punktlistandel": 0.45,
         "kraver_vi": True,
         "kraver_du": True,
@@ -145,7 +156,7 @@ PROFILER = {
     "ansokan": {
         "namn": "jobbansökan",
         "max_median_mening": 18,
-        "min_spridning": 6.0,
+        "min_spridning": 5.0,
         "max_punktlistandel": 0.25,
         "kraver_vi": False,
         "kraver_du": False,
@@ -156,7 +167,7 @@ PROFILER = {
     "rapport": {
         "namn": "rapport",
         "max_median_mening": 23,
-        "min_spridning": 7.0,
+        "min_spridning": 5.0,
         "max_punktlistandel": 0.35,
         "kraver_vi": False,
         "kraver_du": False,
@@ -742,11 +753,18 @@ def rakna_poang(traffar, matt):
     def summa(*grupper):
         return sum(t.vikt for t in traffar if t.grupp in grupper)
 
+    # Viktningen är omgjord efter blindtestet 2026-09-19. Rytmen vägde tyngst
+    # av allt och byggde på LiU-mätningen från 2025, där AI-svenska hade
+    # längre och jämnare meningar än mänsklig svenska. Mot en modell från 2026
+    # replikerade det inte: AI-texterna varierade MER än riksdagsledamöterna.
+    # Rytmen är därför nedflyttad till en biroll. Det som faktiskt fångar den
+    # uppenbara AI-tonen är anglicismerna, fraserna och strukturen, och de har
+    # fått vikten i stället. Se test/RESULTAT.md.
     delar = {
-        "anglicismer": min(20.0, summa("anglicism", "metatext") * per_tusen * 1.4),
-        "ord och fraser": min(20.0, summa("ord", "fras", "hedging") * per_tusen * 1.1),
-        "meningsrytm": min(25.0, summa("rytm") * 2.2),
-        "struktur": min(15.0, summa("struktur") * 1.6),
+        "anglicismer": min(25.0, summa("anglicism", "metatext") * per_tusen * 1.7),
+        "ord och fraser": min(25.0, summa("ord", "fras", "hedging") * per_tusen * 1.4),
+        "struktur": min(18.0, summa("struktur") * 1.8),
+        "meningsrytm": min(12.0, summa("rytm") * 1.6),
         "tilltal": min(12.0, summa("tilltal") * 2.0),
         "engelsk typografi": min(8.0, summa("skrivregel") * per_tusen * 1.2),
     }
