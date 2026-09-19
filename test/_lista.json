@@ -1,0 +1,3054 @@
+{
+  "dokumentlista": {
+    "@ms": "312.0",
+    "@version": "3.8.5.28583",
+    "@q": "sz=20&utformat=json&doktyp=mot&sort=rel&rm=2020%2f21",
+    "@varning": "traffar=4113",
+    "@datum": "2026-09-19 03:48:34",
+    "@nasta_sida": "http://data.riksdagen.se/dokumentlista/?sz=20&utformat=json&doktyp=mot&sort=rel&rm=2020%2f21&p=2",
+    "@sida": "1",
+    "@sidor": "206",
+    "@traff_fran": "1",
+    "@traff_till": "20",
+    "@traffar": "4113",
+    "@dPre": "15",
+    "@dSol": "15",
+    "@dDt": "0",
+    "@dR": "0",
+    "facettlista": null,
+    "dokument": [
+      {
+        "traff": "1",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022774",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2023-03-21 14:53:55",
+        "undertitel": "av Ebba Busch m.fl. (KD)",
+        "kalla": "Filur",
+        "kall_id": "45d856bc-f66f-4c06-956a-2f22d75c7834",
+        "dok_id": "H8022774",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022774.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022774.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 12 Ekonomisk trygghet för familjer och barn",
+        "rm": "2020/21",
+        "organ": "SfU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2774",
+        "tempbeteckning": "",
+        "nummer": "2774",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 12 Ekonomisk trygghet för familjer och barn",
+          "undertitel": "Motion 2020/21:2774 av Ebba Busch m.fl. (KD)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>43</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Jämställdhet och åtgärder mot diskriminering\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801AU10\">2020/21:AU10</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Arbetsrätt\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801AU8\">2020/21:AU8</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Modernare regler för bekräftelse av föräldraskap, faderskapsundersökningar och för att åstadkomma könsneutral föräldraskapspresumtion\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801CU16\">2020/21:CU16</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Ett stärkt barnrättsperspektiv i vårdnadstvister\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801CU17\">2020/21:CU17</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Pensioner\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SfU16\">2020/21:SfU16</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Ekonomisk familjepolitik\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SfU17\">2020/21:SfU17</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Socialförsäkringsfrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SfU21\">2020/21:SfU21</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 12 Ekonomisk trygghet för familjer och barn\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SfU3\">2020/21:SfU3</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Inkomstskatt\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SkU18\">2020/21:SkU18</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Socialtjänst- och barnfrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU24\">2020/21:SoU24</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 16 Utbildning och universitetsforskning\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU1\">2020/21:UbU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Förskolan\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU7\">2020/21:UbU7</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(43 yrkanden): \n\t\t\t\t\t \n\t\t\t\t\t\t41 avslag, 2 bifall, \n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2774\n av Ebba Busch m.fl. (KD)\n Utgiftsområde 12 Ekonomisk trygghet för familjer och barn\n Innehållsförteckning\n Förslag till riksdagsbeslut\n Tabell\n 1 Familjen är den grund som samhället vilar på\n Trygga familjer främjar en god psykisk hälsa bland barn och unga\n Sammanhållna familjer minskar",
+        "notisrubrik": "Utgiftsområde 12 Ekonomisk trygghet för familjer och barn",
+        "notis": "Motion till riksdagen\n 2020/21:2774\n av Ebba Busch m.fl. (KD)\n Utgiftsområde 12 Ekonomisk trygghet för familjer och barn\n Innehållsförteckning\n Förslag till riksdagsbeslut\n Tabell\n 1 Familjen är den grund som samhället vilar på\n Trygga familjer främjar en god psykisk hälsa bland barn och unga\n Sammanhållna familjer minskar",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Ebba Busch",
+              "partibet": "KD",
+              "intressent_id": "0512510717328"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jakob Forssmed",
+              "partibet": "KD",
+              "intressent_id": "0982795248728"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Andreas Carlson",
+              "partibet": "KD",
+              "intressent_id": "0542160909628"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Acko Ankarberg Johansson",
+              "partibet": "KD",
+              "intressent_id": "0796071663617"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Camilla Brodin",
+              "partibet": "KD",
+              "intressent_id": "0378597308227"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hans Eklind",
+              "partibet": "KD",
+              "intressent_id": "0494242537816"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mikael Oscarsson",
+              "partibet": "KD",
+              "intressent_id": "0973782197017"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2774.docx",
+              "storlek": "124880",
+              "url": "https://data.riksdagen.se/fil/B8981187-81A4-4218-9D46-4EB145AAEA04"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2774.pdf",
+              "storlek": "233661",
+              "url": "https://data.riksdagen.se/fil/FE75096F-5E7E-4A42-8A72-0108B6485123"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "2",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022771",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-08-26 15:52:05",
+        "undertitel": "av Jimmie Åkesson m.fl. (SD)",
+        "kalla": "Filur",
+        "kall_id": "e1136a7d-7b8d-4389-9306-2088b80b781f",
+        "dok_id": "H8022771",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022771.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022771.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter passagerarfartyget Estonia",
+        "rm": "2020/21",
+        "organ": "JuU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2771",
+        "tempbeteckning": "SD",
+        "nummer": "2771",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter passagerarfartyget Estonia",
+          "undertitel": "Motion 2020/21:2771 av Jimmie Åkesson m.fl. (SD)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utvidgade möjligheter att utreda förlisningen av passagerarfartyget Estonia\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801JuU36\">2020/21:JuU36</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2771\n av Jimmie Åkesson m.fl. (SD)\n Översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter passagerarfartyget Estonia\n Förslag till riksdagsbeslut\n Riksdagen ställer sig bakom det som anförs i motionen om en översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter",
+        "notisrubrik": "Översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter passagerarfartyget Estonia",
+        "notis": "Motion till riksdagen\n 2020/21:2771\n av Jimmie Åkesson m.fl. (SD)\n Översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter passagerarfartyget Estonia\n Förslag till riksdagsbeslut\n Riksdagen ställer sig bakom det som anförs i motionen om en översyn av lagen (1995:732) om skydd för gravfriden vid vraket efter",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jimmie Åkesson",
+              "partibet": "SD",
+              "intressent_id": "051207517226"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Henrik Vinge",
+              "partibet": "SD",
+              "intressent_id": "0406831930624"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Julia Kronlid",
+              "partibet": "SD",
+              "intressent_id": "0638497389621"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Richard Jomshof",
+              "partibet": "SD",
+              "intressent_id": "0803753212716"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mattias Karlsson",
+              "partibet": "SD",
+              "intressent_id": "0831636664429"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mattias Bäckström Johansson",
+              "partibet": "SD",
+              "intressent_id": "0130789484021"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Carina Ståhl Herrstedt",
+              "partibet": "SD",
+              "intressent_id": "0603753860213"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Oscar Sjöstedt",
+              "partibet": "SD",
+              "intressent_id": "055257333723"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Martin Kinnunen",
+              "partibet": "SD",
+              "intressent_id": "0294138886823"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Bo Broman",
+              "partibet": "SD",
+              "intressent_id": "0333193598116"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Aron Emilsson",
+              "partibet": "SD",
+              "intressent_id": "0861521539920"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2771.docx",
+              "storlek": "70830",
+              "url": "https://data.riksdagen.se/fil/03D52B9D-AE6C-4126-8BE6-C93F477161A0"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2771.pdf",
+              "storlek": "84434",
+              "url": "https://data.riksdagen.se/fil/E639681A-6B94-45B9-A26C-3B0A50D383EA"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "3",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023203",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2023-03-21 14:59:38",
+        "undertitel": "av Ebba Busch m.fl. (KD)",
+        "kalla": "Filur",
+        "kall_id": "46ae2a39-43e8-4539-8906-e78e7f20d5db",
+        "dok_id": "H8023203",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023203.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023203.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "En äldrepolitik att lita på",
+        "rm": "2020/21",
+        "organ": "SoU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3203",
+        "tempbeteckning": "",
+        "nummer": "3203",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "En äldrepolitik att lita på",
+          "undertitel": "Motion 2020/21:3203 av Ebba Busch m.fl. (KD)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>43</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Arbetsrätt\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801AU8\">2020/21:AU8</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Socialförsäkringsfrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SfU21\">2020/21:SfU21</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Folkhälsofrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU15\">2020/21:SoU15</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Hälso- och sjukvårdens organisation m.m.\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU16\">2020/21:SoU16</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Kompetensförsörjning inom hälso- och sjukvården m.m.\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU17\">2020/21:SoU17</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Äldrefrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU9\">2020/21:SoU9</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Kollektivtrafikfrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801TU8\">2020/21:TU8</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 16 Utbildning och universitetsforskning\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU1\">2020/21:UbU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(43 yrkanden): \n\t\t\t\t\t \n\t\t\t\t\t\t43 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3203\n av Ebba Busch m.fl. (KD)\n En äldrepolitik att lita på\n Innehållsförteckning\n Förslag till riksdagsbeslut\n Motivering\n 1 Äldreomsorg\n 1.1 Förstärk den kommunala hälso- och sjukvården\n 1.2 Äldreboendegaranti\n 1.3 Personalens arbetsvillkor\n 1.3.1 Förbättrade arbetsvillkor\n 1.3.2 Kompetensutveckling\n",
+        "notisrubrik": "En äldrepolitik att lita på",
+        "notis": "Motion till riksdagen\n 2020/21:3203\n av Ebba Busch m.fl. (KD)\n En äldrepolitik att lita på\n Innehållsförteckning\n Förslag till riksdagsbeslut\n Motivering\n 1 Äldreomsorg\n 1.1 Förstärk den kommunala hälso- och sjukvården\n 1.2 Äldreboendegaranti\n 1.3 Personalens arbetsvillkor\n 1.3.1 Förbättrade arbetsvillkor\n 1.3.2 Kompetensutveckling\n",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Ebba Busch",
+              "partibet": "KD",
+              "intressent_id": "0512510717328"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jakob Forssmed",
+              "partibet": "KD",
+              "intressent_id": "0982795248728"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Andreas Carlson",
+              "partibet": "KD",
+              "intressent_id": "0542160909628"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Acko Ankarberg Johansson",
+              "partibet": "KD",
+              "intressent_id": "0796071663617"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Camilla Brodin",
+              "partibet": "KD",
+              "intressent_id": "0378597308227"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hans Eklind",
+              "partibet": "KD",
+              "intressent_id": "0494242537816"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mikael Oscarsson",
+              "partibet": "KD",
+              "intressent_id": "0973782197017"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3203.docx",
+              "storlek": "103768",
+              "url": "https://data.riksdagen.se/fil/644E6F69-F6C4-4C92-884B-50A0D31A0E5B"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3203.pdf",
+              "storlek": "190101",
+              "url": "https://data.riksdagen.se/fil/F15D6101-7511-4362-B56C-489732CE8D9A"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "4",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023198",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 16:35:07",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "e985bab5-83ae-4dc5-8e4e-dee9dc00e849",
+        "dok_id": "H8023198",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023198.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023198.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 15 Studiestöd",
+        "rm": "2020/21",
+        "organ": "UbU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3198",
+        "tempbeteckning": "V505",
+        "nummer": "3198",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 15 Studiestöd",
+          "undertitel": "Motion 2020/21:3198 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 15 Studiestöd\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU2\">2020/21:UbU2</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3198\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 15 Studiestöd\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 15 Studiestöd enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 15 Studiestöd\n Tusental",
+        "notisrubrik": "Utgiftsområde 15 Studiestöd",
+        "notis": "Motion till riksdagen\n 2020/21:3198\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 15 Studiestöd\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 15 Studiestöd enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 15 Studiestöd\n Tusental",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Daniel Riazat",
+              "partibet": "V",
+              "intressent_id": "07012286624"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3198.docx",
+              "storlek": "72092",
+              "url": "https://data.riksdagen.se/fil/36597EAA-59CA-4F27-941E-752041DF7481"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3198.pdf",
+              "storlek": "85966",
+              "url": "https://data.riksdagen.se/fil/C6618CE3-3081-4180-9D33-D9DD83A62F48"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "5",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023197",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 16:29:39",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "9a0a2cab-a79f-40b4-9f35-523e642094d1",
+        "dok_id": "H8023197",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023197.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023197.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 20 Allmän miljö- och naturvård",
+        "rm": "2020/21",
+        "organ": "MJU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3197",
+        "tempbeteckning": "V581",
+        "nummer": "3197",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 20 Allmän miljö- och naturvård",
+          "undertitel": "Motion 2020/21:3197 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 20 Allmän miljö- och naturvård\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801MJU1\">2020/21:MJU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3197\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 20 Allmän miljö- och naturvård\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 20 Allmän miljö- och naturvård enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde",
+        "notisrubrik": "Utgiftsområde 20 Allmän miljö- och naturvård",
+        "notis": "Motion till riksdagen\n 2020/21:3197\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 20 Allmän miljö- och naturvård\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 20 Allmän miljö- och naturvård enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Elin Segerlind",
+              "partibet": "V",
+              "intressent_id": "0952789103522"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3197.docx",
+              "storlek": "77595",
+              "url": "https://data.riksdagen.se/fil/EC697CBA-E636-460B-B524-3ECFDBA086D3"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3197.pdf",
+              "storlek": "106775",
+              "url": "https://data.riksdagen.se/fil/D66F4A5A-5FCA-436E-99CF-C03D45203B8A"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "6",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023196",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 16:13:29",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "aa06ad66-88d0-47e4-8349-a9e50d2e3740",
+        "dok_id": "H8023196",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023196.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023196.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 23 Areella näringar, landsbygd och livsmedel",
+        "rm": "2020/21",
+        "organ": "MJU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3196",
+        "tempbeteckning": "V582",
+        "nummer": "3196",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 23 Areella näringar, landsbygd och livsmedel",
+          "undertitel": "Motion 2020/21:3196 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 23 Areella näringar, landsbygd och livsmedel\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801MJU2\">2020/21:MJU2</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3196\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 23 Areella näringar, landsbygd och livsmedel\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 23 Areella näringar, landsbygd och livsmedel enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell",
+        "notisrubrik": "Utgiftsområde 23 Areella näringar, landsbygd och livsmedel",
+        "notis": "Motion till riksdagen\n 2020/21:3196\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 23 Areella näringar, landsbygd och livsmedel\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 23 Areella näringar, landsbygd och livsmedel enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Elin Segerlind",
+              "partibet": "V",
+              "intressent_id": "0952789103522"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3196.docx",
+              "storlek": "78236",
+              "url": "https://data.riksdagen.se/fil/394DBA99-63EA-4A04-A0EC-6611EDEF7A8D"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3196.pdf",
+              "storlek": "105042",
+              "url": "https://data.riksdagen.se/fil/8B4120AA-90F9-491E-AB6B-6D7B58D1B63C"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "7",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023195",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 11:34:06",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "744586bf-d994-4566-b391-723dde141390",
+        "dok_id": "H8023195",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023195.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023195.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 22 Kommunikationer",
+        "rm": "2020/21",
+        "organ": "TU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3195",
+        "tempbeteckning": "V585",
+        "nummer": "3195",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 22 Kommunikationer",
+          "undertitel": "Motion 2020/21:3195 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 22 Kommunikationer\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801TU1\">2020/21:TU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3195\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 22 Kommunikationer\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 22 Kommunikationer enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 22 Kommunikationer\n",
+        "notisrubrik": "Utgiftsområde 22 Kommunikationer",
+        "notis": "Motion till riksdagen\n 2020/21:3195\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 22 Kommunikationer\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 22 Kommunikationer enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 22 Kommunikationer\n",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jens Holm",
+              "partibet": "V",
+              "intressent_id": "0216534495014"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3195.docx",
+              "storlek": "81565",
+              "url": "https://data.riksdagen.se/fil/599CF596-12AE-4CA5-BECA-CAE778319193"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3195.pdf",
+              "storlek": "113236",
+              "url": "https://data.riksdagen.se/fil/4526DC4C-68FF-40BB-97CE-F5C086C614F7"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "8",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023194",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 11:21:48",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "75d6f46d-4348-4333-8265-460942f26c2b",
+        "dok_id": "H8023194",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023194.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023194.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 4 Rättsväsendet",
+        "rm": "2020/21",
+        "organ": "JuU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3194",
+        "tempbeteckning": "V630",
+        "nummer": "3194",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 4 Rättsväsendet",
+          "undertitel": "Motion 2020/21:3194 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 4 Rättsväsendet\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801JuU1\">2020/21:JuU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3194\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 4 Rättsväsendet\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 4 Rättsväsendet enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 4 Rättsväsendet\n",
+        "notisrubrik": "Utgiftsområde 4 Rättsväsendet",
+        "notis": "Motion till riksdagen\n 2020/21:3194\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 4 Rättsväsendet\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 4 Rättsväsendet enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 4 Rättsväsendet\n",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Linda Westerlund Snecker",
+              "partibet": "V",
+              "intressent_id": "0150118366721"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3194.docx",
+              "storlek": "75070",
+              "url": "https://data.riksdagen.se/fil/B55F8063-C03E-48A7-A92F-49C80C0AF400"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3194.pdf",
+              "storlek": "93582",
+              "url": "https://data.riksdagen.se/fil/CC8953A8-F805-4019-8AFE-CFC20993BB38"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "9",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023193",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 11:11:29",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "f4e68a5b-0be4-4492-96f3-4aff36224b26",
+        "dok_id": "H8023193",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023193.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023193.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 14 Arbetsmarknad och arbetsliv",
+        "rm": "2020/21",
+        "organ": "AU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3193",
+        "tempbeteckning": "V669",
+        "nummer": "3193",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 14 Arbetsmarknad och arbetsliv",
+          "undertitel": "Motion 2020/21:3193 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 14 Arbetsmarknad och arbetsliv\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801AU2\">2020/21:AU2</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3193\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 14 Arbetsmarknad och arbetsliv\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 14 Arbetsmarknad och arbetsliv enligt förslaget i tabellen i motionen.\n Anslagsfördelning  Tabell Anslagsförslag 2021 för utgiftsområde",
+        "notisrubrik": "Utgiftsområde 14 Arbetsmarknad och arbetsliv",
+        "notis": "Motion till riksdagen\n 2020/21:3193\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 14 Arbetsmarknad och arbetsliv\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 14 Arbetsmarknad och arbetsliv enligt förslaget i tabellen i motionen.\n Anslagsfördelning  Tabell Anslagsförslag 2021 för utgiftsområde",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Ali Esbati",
+              "partibet": "V",
+              "intressent_id": "014386615025"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3193.docx",
+              "storlek": "77947",
+              "url": "https://data.riksdagen.se/fil/1343FB76-6D51-4076-AB3C-D76537E3E09E"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3193.pdf",
+              "storlek": "103135",
+              "url": "https://data.riksdagen.se/fil/C4CF2811-2E64-4113-9A94-E18F409855DF"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "10",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023192",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 11:02:42",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "62403027-cefe-4b33-95ac-fc0dfd88e2d3",
+        "dok_id": "H8023192",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023192.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023192.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik",
+        "rm": "2020/21",
+        "organ": "CU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3192",
+        "tempbeteckning": "V670",
+        "nummer": "3192",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik",
+          "undertitel": "Motion 2020/21:3192 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801CU1\">2020/21:CU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3192\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik enligt",
+        "notisrubrik": "Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik",
+        "notis": "Motion till riksdagen\n 2020/21:3192\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik enligt",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Momodou Malcolm Jallow",
+              "partibet": "V",
+              "intressent_id": "0254695027922"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3192.docx",
+              "storlek": "78479",
+              "url": "https://data.riksdagen.se/fil/1BC1E3E6-EE6E-4EB2-9FCC-7DFEA7A09F94"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3192.pdf",
+              "storlek": "105044",
+              "url": "https://data.riksdagen.se/fil/C26BD699-0E1B-4036-AD38-931547B4408E"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "11",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023191",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 10:55:12",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "f34e78b6-6be1-420a-9205-521f87f0a61e",
+        "dok_id": "H8023191",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023191.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023191.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 1 Rikets styrelse",
+        "rm": "2020/21",
+        "organ": "KU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3191",
+        "tempbeteckning": "V631",
+        "nummer": "3191",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 1 Rikets styrelse",
+          "undertitel": "Motion 2020/21:3191 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 1 Rikets styrelse\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801KU1\">2020/21:KU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3191\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 1 Rikets styrelse\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 1 Rikets styrelse enligt förslaget i tabellen i motionen.\n Anslagsfördelning\n Anslagsförslag 2021 för utgiftsområde 1 Rikets styrelse\n Tusental",
+        "notisrubrik": "Utgiftsområde 1 Rikets styrelse",
+        "notis": "Motion till riksdagen\n 2020/21:3191\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 1 Rikets styrelse\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 1 Rikets styrelse enligt förslaget i tabellen i motionen.\n Anslagsfördelning\n Anslagsförslag 2021 för utgiftsområde 1 Rikets styrelse\n Tusental",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mia Sydow Mölleby",
+              "partibet": "V",
+              "intressent_id": "0415959965211"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3191.docx",
+              "storlek": "74596",
+              "url": "https://data.riksdagen.se/fil/4290DED7-C84E-45D3-B87F-7999C974C90A"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3191.pdf",
+              "storlek": "95464",
+              "url": "https://data.riksdagen.se/fil/F34B634A-7E3C-4779-80DC-2EE86C0E25E3"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "12",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023190",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-11-09 10:02:49",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "969b1ab7-da45-4e76-83ec-07986846fa92",
+        "dok_id": "H8023190",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023190.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023190.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 16 Utbildning och universitetsforskning",
+        "rm": "2020/21",
+        "organ": "UbU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3190",
+        "tempbeteckning": "V506",
+        "nummer": "3190",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 16 Utbildning och universitetsforskning",
+          "undertitel": "Motion 2020/21:3190 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 16 Utbildning och universitetsforskning\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU1\">2020/21:UbU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3190\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 16 Utbildning och universitetsforskning\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 16 Utbildning och universitetsforskning enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Anslagsförslag 2021",
+        "notisrubrik": "Utgiftsområde 16 Utbildning och universitetsforskning",
+        "notis": "Motion till riksdagen\n 2020/21:3190\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 16 Utbildning och universitetsforskning\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 16 Utbildning och universitetsforskning enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Anslagsförslag 2021",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Daniel Riazat",
+              "partibet": "V",
+              "intressent_id": "07012286624"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3190.docx",
+              "storlek": "85125",
+              "url": "https://data.riksdagen.se/fil/83EA4AA1-DDD6-498E-9AD5-AFD76DB97BA2"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3190.pdf",
+              "storlek": "106529",
+              "url": "https://data.riksdagen.se/fil/A3567CF2-3AA9-4301-A0C7-6B74E2C6F21C"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "13",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023170",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2023-03-21 15:07:04",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "7f66028e-99a9-4bc6-9857-474e294cc1ca",
+        "dok_id": "H8023170",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023170.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023170.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Vägen ut ur krisen – en plan för jämlikhet och grön omställning",
+        "rm": "2020/21",
+        "organ": "FiU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3170",
+        "tempbeteckning": "700",
+        "nummer": "3170",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Vägen ut ur krisen – en plan för jämlikhet och grön omställning",
+          "undertitel": "Motion 2020/21:3170 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>9</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Statens budget 2021 Rambeslutet\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801FiU1\">2020/21:FiU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Statlig förvaltning\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801FiU25\">2020/21:FiU25</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(9 yrkanden): \n\t\t\t\t\t \n\t\t\t\t\t\t9 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3170\n av Jonas Sjöstedt m.fl. (V)\n Vägen ut ur krisen en plan för jämlikhet och grön omställning\n 1  Sammanfattning\n Coronapandemin har inneburit en drastisk och omvälvande förändring av tillvaron för de allra flesta människor. Olika samhällsmodeller möter kriser på olika sätt. Ett robust",
+        "notisrubrik": "Vägen ut ur krisen – en plan för jämlikhet och grön omställning",
+        "notis": "Motion till riksdagen\n 2020/21:3170\n av Jonas Sjöstedt m.fl. (V)\n Vägen ut ur krisen en plan för jämlikhet och grön omställning\n 1  Sammanfattning\n Coronapandemin har inneburit en drastisk och omvälvande förändring av tillvaron för de allra flesta människor. Olika samhällsmodeller möter kriser på olika sätt. Ett robust",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Ulla Andersson",
+              "partibet": "V",
+              "intressent_id": "0628190530410"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3170.docx",
+              "storlek": "826238",
+              "url": "https://data.riksdagen.se/fil/9D28AFC8-5497-4DBB-89D1-874D1B9F7820"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3170.pdf",
+              "storlek": "1097804",
+              "url": "https://data.riksdagen.se/fil/4108C6D2-E6A6-4B0F-B5AD-52D12A0F60A1"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "14",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023141",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2023-03-21 14:59:35",
+        "undertitel": "av Ebba Busch m.fl. (KD)",
+        "kalla": "Filur",
+        "kall_id": "d5c1d3a1-51cc-4dcd-a29a-c431b2c621c3",
+        "dok_id": "H8023141",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023141.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023141.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "En hälso- och sjukvård att lita på",
+        "rm": "2020/21",
+        "organ": "SoU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3141",
+        "tempbeteckning": "",
+        "nummer": "3141",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "En hälso- och sjukvård att lita på",
+          "undertitel": "Motion 2020/21:3141 av Ebba Busch m.fl. (KD)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>66</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Covid-19-pandemin och därmed sammanhängande frågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU14\">2020/21:SoU14</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Hälso- och sjukvårdens organisation m.m.\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU16\">2020/21:SoU16</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Kompetensförsörjning inom hälso- och sjukvården m.m.\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU17\">2020/21:SoU17</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Äldrefrågor\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801SoU9\">2020/21:SoU9</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Grundläggande om utbildning\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU12\">2020/21:UbU12</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Högskolan\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU14\">2020/21:UbU14</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Forskning, frihet, framtid – kunskap och innovation för Sverige\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801UbU16\">2020/21:UbU16</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(66 yrkanden): \n\t\t\t\t\t \n\t\t\t\t\t\t65 avslag, 1 bifall, \n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3141\n av Ebba Busch m.fl. (KD)\n En hälso- och sjukvård att lita på\n Innehållsförteckning\n Förslag till riksdagsbeslut\n Inledning\n En hälso- och sjukvård att lita på\n Statligt huvudansvar för sjukvården\n Vård efter behov\n Inrätta en nationell vårdförmedling\n Kraftigt stärkt vårdgaranti och",
+        "notisrubrik": "En hälso- och sjukvård att lita på",
+        "notis": "Motion till riksdagen\n 2020/21:3141\n av Ebba Busch m.fl. (KD)\n En hälso- och sjukvård att lita på\n Innehållsförteckning\n Förslag till riksdagsbeslut\n Inledning\n En hälso- och sjukvård att lita på\n Statligt huvudansvar för sjukvården\n Vård efter behov\n Inrätta en nationell vårdförmedling\n Kraftigt stärkt vårdgaranti och",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Ebba Busch",
+              "partibet": "KD",
+              "intressent_id": "0512510717328"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jakob Forssmed",
+              "partibet": "KD",
+              "intressent_id": "0982795248728"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Andreas Carlson",
+              "partibet": "KD",
+              "intressent_id": "0542160909628"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Acko Ankarberg Johansson",
+              "partibet": "KD",
+              "intressent_id": "0796071663617"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Camilla Brodin",
+              "partibet": "KD",
+              "intressent_id": "0378597308227"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hans Eklind",
+              "partibet": "KD",
+              "intressent_id": "0494242537816"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mikael Oscarsson",
+              "partibet": "KD",
+              "intressent_id": "0973782197017"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3141.docx",
+              "storlek": "152158",
+              "url": "https://data.riksdagen.se/fil/CBD80061-ED41-44F0-8A98-3D2EC85B70DD"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3141.pdf",
+              "storlek": "354974",
+              "url": "https://data.riksdagen.se/fil/36E3AB15-AD6C-4705-858D-88192D961EC7"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "15",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8023128",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2023-03-21 15:07:14",
+        "undertitel": "av Jimmie Åkesson m.fl. (SD)",
+        "kalla": "Filur",
+        "kall_id": "db8e8dd6-faa7-423a-9577-4aeeaa7b1dde",
+        "dok_id": "H8023128",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8023128.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8023128.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Investera i Sverige – Sverigedemokraternas förslag till statsbudget 2021",
+        "rm": "2020/21",
+        "organ": "FiU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "3128",
+        "tempbeteckning": "394",
+        "nummer": "3128",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Investera i Sverige – Sverigedemokraternas förslag till statsbudget 2021",
+          "undertitel": "Motion 2020/21:3128 av Jimmie Åkesson m.fl. (SD)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>6</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Statens budget 2021 Rambeslutet\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801FiU1\">2020/21:FiU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(6 yrkanden): \n\t\t\t\t\t \n\t\t\t\t\t\t6 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:3128\n av Jimmie Åkesson m.fl. (SD)\n Investera i Sverige Sverigedemokraternas förslag till statsbudget 2021\n Förslag till riksdagsbeslut\n Riksdagen godkänner de riktlinjer för den ekonomiska politiken och budgetpolitiken som föreslås i motionen.\n Riksdagen fastställer utgiftstaket för staten",
+        "notisrubrik": "Investera i Sverige – Sverigedemokraternas förslag till statsbudget 2021",
+        "notis": "Motion till riksdagen\n 2020/21:3128\n av Jimmie Åkesson m.fl. (SD)\n Investera i Sverige Sverigedemokraternas förslag till statsbudget 2021\n Förslag till riksdagsbeslut\n Riksdagen godkänner de riktlinjer för den ekonomiska politiken och budgetpolitiken som föreslås i motionen.\n Riksdagen fastställer utgiftstaket för staten",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jimmie Åkesson",
+              "partibet": "SD",
+              "intressent_id": "051207517226"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Oscar Sjöstedt",
+              "partibet": "SD",
+              "intressent_id": "055257333723"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Henrik Vinge",
+              "partibet": "SD",
+              "intressent_id": "0406831930624"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Julia Kronlid",
+              "partibet": "SD",
+              "intressent_id": "0638497389621"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mattias Bäckström Johansson",
+              "partibet": "SD",
+              "intressent_id": "0130789484021"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Richard Jomshof",
+              "partibet": "SD",
+              "intressent_id": "0803753212716"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Carina Ståhl Herrstedt",
+              "partibet": "SD",
+              "intressent_id": "0603753860213"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Aron Emilsson",
+              "partibet": "SD",
+              "intressent_id": "0861521539920"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Martin Kinnunen",
+              "partibet": "SD",
+              "intressent_id": "0294138886823"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Bo Broman",
+              "partibet": "SD",
+              "intressent_id": "0333193598116"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Mattias Karlsson",
+              "partibet": "SD",
+              "intressent_id": "0831636664429"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__3128.docx",
+              "storlek": "364065",
+              "url": "https://data.riksdagen.se/fil/F5B9567E-916B-4F12-9D9E-6002CEC665C6"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__3128.pdf",
+              "storlek": "464339",
+              "url": "https://data.riksdagen.se/fil/8519B9F9-5268-494C-A07A-E0D693ED15EA"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "16",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022976",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-09-10 15:02:32",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "9dcb593f-57b1-4592-afeb-b2e01877ac36",
+        "dok_id": "H8022976",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022976.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022976.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 17 Kultur, medier, trossamfund och fritid",
+        "rm": "2020/21",
+        "organ": "KrU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2976",
+        "tempbeteckning": "V333",
+        "nummer": "2976",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 17 Kultur, medier, trossamfund och fritid",
+          "undertitel": "Motion 2020/21:2976 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 17 Kultur, medier, trossamfund och fritid\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801KrU1\">2020/21:KrU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2976\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 17 Kultur, medier, trossamfund och fritid\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 17 Kultur, medier, trossamfund och fritid enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för",
+        "notisrubrik": "Utgiftsområde 17 Kultur, medier, trossamfund och fritid",
+        "notis": "Motion till riksdagen\n 2020/21:2976\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 17 Kultur, medier, trossamfund och fritid\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 17 Kultur, medier, trossamfund och fritid enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Vasiliki Tsouplaki",
+              "partibet": "V",
+              "intressent_id": "0228027853620"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2976.docx",
+              "storlek": "80071",
+              "url": "https://data.riksdagen.se/fil/9787ED97-C03E-4165-8AAD-70414A301FE3"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2976.pdf",
+              "storlek": "100857",
+              "url": "https://data.riksdagen.se/fil/8C76336C-C7EC-41A1-850C-1375282554BC"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "17",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022975",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-09-10 15:01:10",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "65a94e70-38c8-427f-9cbe-3bdaf7a037f6",
+        "dok_id": "H8022975",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022975.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022975.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 24 Näringsliv",
+        "rm": "2020/21",
+        "organ": "NU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2975",
+        "tempbeteckning": "V325",
+        "nummer": "2975",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 24 Näringsliv",
+          "undertitel": "Motion 2020/21:2975 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 24 Näringsliv\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801NU1\">2020/21:NU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2975\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 24 Näringsliv\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 24 Näringsliv enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 24 Näringsliv\n Tusental",
+        "notisrubrik": "Utgiftsområde 24 Näringsliv",
+        "notis": "Motion till riksdagen\n 2020/21:2975\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 24 Näringsliv\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 24 Näringsliv enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 24 Näringsliv\n Tusental",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Birger Lahti",
+              "partibet": "V",
+              "intressent_id": "0825441263617"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2975.docx",
+              "storlek": "76296",
+              "url": "https://data.riksdagen.se/fil/06922E2F-0720-4422-BBCF-E90AA0E31274"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2975.pdf",
+              "storlek": "96655",
+              "url": "https://data.riksdagen.se/fil/B3992F62-0151-4E42-8A86-B4EFA7B045E4"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "18",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022974",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-09-10 14:59:53",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "8d9dbb0c-cd16-4575-b3c6-dd566d306969",
+        "dok_id": "H8022974",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022974.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022974.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 21 Energi",
+        "rm": "2020/21",
+        "organ": "NU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2974",
+        "tempbeteckning": "V324",
+        "nummer": "2974",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 21 Energi",
+          "undertitel": "Motion 2020/21:2974 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 21 Energi\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801NU3\">2020/21:NU3</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2974\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 21 Energi\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 21 Energi enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 21 Energi\n Tusental kronor\n Ramanslag\n",
+        "notisrubrik": "Utgiftsområde 21 Energi",
+        "notis": "Motion till riksdagen\n 2020/21:2974\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 21 Energi\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 21 Energi enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 21 Energi\n Tusental kronor\n Ramanslag\n",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Birger Lahti",
+              "partibet": "V",
+              "intressent_id": "0825441263617"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2974.docx",
+              "storlek": "73300",
+              "url": "https://data.riksdagen.se/fil/43004D1B-23F1-49DB-B04B-77F6D56CE24E"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2974.pdf",
+              "storlek": "87863",
+              "url": "https://data.riksdagen.se/fil/401560B4-724B-4641-9DC6-7C275AE3D495"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "19",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022973",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-09-10 14:58:14",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "ace128f8-329f-45cd-a4d2-017cfa08218c",
+        "dok_id": "H8022973",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022973.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022973.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 19 Regional utveckling",
+        "rm": "2020/21",
+        "organ": "NU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2973",
+        "tempbeteckning": "V323",
+        "nummer": "2973",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 19 Regional utveckling",
+          "undertitel": "Motion 2020/21:2973 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>1</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 19 Regional utveckling\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801NU2\">2020/21:NU2</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(1 yrkande): \n\t\t\t\t\t \n\t\t\t\t\t\t1 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2973\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 19 Regional utveckling\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 19 Regional utveckling enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 19 Regional",
+        "notisrubrik": "Utgiftsområde 19 Regional utveckling",
+        "notis": "Motion till riksdagen\n 2020/21:2973\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 19 Regional utveckling\n Förslag till riksdagsbeslut\n Riksdagen anvisar anslagen för 2021 inom utgiftsområde 19 Regional utveckling enligt förslaget i tabell 1 i motionen.\n Anslagsfördelning\n Tabell 1 Anslagsförslag 2021 för utgiftsområde 19 Regional",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Birger Lahti",
+              "partibet": "V",
+              "intressent_id": "0825441263617"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2973.docx",
+              "storlek": "71736",
+              "url": "https://data.riksdagen.se/fil/EA9D9708-A60E-4BF7-9423-1572054E8400"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2973.pdf",
+              "storlek": "87301",
+              "url": "https://data.riksdagen.se/fil/D7511439-2802-427B-A961-5F7857D2901B"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      },
+      {
+        "traff": "20",
+        "domain": "rdwebb",
+        "database": "dokument",
+        "datum": "2020-10-06",
+        "id": "h8022972",
+        "rdrest": null,
+        "slutdatum": "",
+        "rddata": null,
+        "plats": "",
+        "klockslag": "",
+        "publicerad": "2020-10-06",
+        "systemdatum": "2021-09-10 14:57:16",
+        "undertitel": "av Jonas Sjöstedt m.fl. (V)",
+        "kalla": "Filur",
+        "kall_id": "830d9750-54f5-44da-888a-c079a0ae99ce",
+        "dok_id": "H8022972",
+        "dokumentformat": "",
+        "dokument_url_text": "//data.riksdagen.se/dokument/H8022972.text",
+        "dokument_url_html": "//data.riksdagen.se/dokument/H8022972.html",
+        "inlamnad": "",
+        "motionstid": "",
+        "tilldelat": "",
+        "lang": "",
+        "url": "",
+        "relurl": "",
+        "titel": "Utgiftsområde 6 Försvar och samhällets krisberedskap",
+        "rm": "2020/21",
+        "organ": "FöU",
+        "relaterat_id": "",
+        "doktyp": "mot",
+        "typ": "mot",
+        "subtyp": "Partimotion",
+        "beteckning": "2972",
+        "tempbeteckning": "V293",
+        "nummer": "2972",
+        "status": "Klar",
+        "score": "312",
+        "sokdata": {
+          "titel": "Utgiftsområde 6 Försvar och samhällets krisberedskap",
+          "undertitel": "Motion 2020/21:2972 av Jonas Sjöstedt m.fl. (V)",
+          "soktyp": "",
+          "statusrad": "\n\t\t\t\t<dl>\n\t\t\t\t <dt>Inlämnad</dt> <dd>2020-10-06</dd> <dt>Förslag</dt> <dd>3</dd> \n\t\t\t\t\t\t<dt>Datum</dt> <dd>2020-10-06</dd>\n\t\t\t\t\t\n\t\t\t\t\t<dt>Utskottsberedning</dt>  \n\t\t\t\t\t<dd>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a data-dokumentnamn=\"Betänkande\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumenttitel=\"Utgiftsområde 6 Försvar och samhällets krisberedskap\"\n\t\t\t\t\t\t\t\t\t\tdata-dokumentid=\"H801FöU1\">2020/21:FöU1</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t\t<dt>Riksdagsbeslut</dt> \n\t\t\t\t<dd>\n\t\t\t\t\t(3 yrkanden): \n\t\t\t\t\t \n\t\t\t\t\t\t3 avslag\n\t\t\t\t</dd>\n\t\t\t\t\n\t\t\t</dl>\n\t\t\t",
+          "brodsmula": "",
+          "parti_kod": "",
+          "parti_namn": "",
+          "parti_website_url": "",
+          "parti_website_namn": "",
+          "parti_epost": "",
+          "parti_telefon": "",
+          "parti_telefontider": "",
+          "parti_logotyp_img_id": "",
+          "parti_logotyp_img_url": "",
+          "parti_logotyp_img_alt": "",
+          "parti_mandat": "",
+          "kalenderprio": ""
+        },
+        "summary": "Motion till riksdagen\n 2020/21:2972\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 6 Försvar och samhällets krisberedskap\n Sammanfattning\n Den säkerhetspolitiska situationen i Europa har förändrats och försämrats. Vi ser växande motsättningar, militär upprustning och ökad konfrontation på vår kontinent och i vårt närområde.",
+        "notisrubrik": "Utgiftsområde 6 Försvar och samhällets krisberedskap",
+        "notis": "Motion till riksdagen\n 2020/21:2972\n av Jonas Sjöstedt m.fl. (V)\n Utgiftsområde 6 Försvar och samhällets krisberedskap\n Sammanfattning\n Den säkerhetspolitiska situationen i Europa har förändrats och försämrats. Vi ser växande motsättningar, militär upprustning och ökad konfrontation på vår kontinent och i vårt närområde.",
+        "dokintressent": {
+          "intressent": [
+            {
+              "roll": "undertecknare",
+              "namn": "Jonas Sjöstedt",
+              "partibet": "V",
+              "intressent_id": "0383111552218"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Tony Haddou",
+              "partibet": "V",
+              "intressent_id": "0920901966627"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Maj Karlsson",
+              "partibet": "V",
+              "intressent_id": "0198917587520"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Karin Rågsjö",
+              "partibet": "V",
+              "intressent_id": "0246927519019"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Håkan Svenneling",
+              "partibet": "V",
+              "intressent_id": "0682989845822"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Jessica Wetterling",
+              "partibet": "V",
+              "intressent_id": "0481460392727"
+            },
+            {
+              "roll": "undertecknare",
+              "namn": "Hanna Gunnarsson",
+              "partibet": "V",
+              "intressent_id": "0411459873625"
+            }
+          ]
+        },
+        "filbilaga": {
+          "fil": [
+            {
+              "typ": "docx",
+              "namn": "mot_202021__2972.docx",
+              "storlek": "77136",
+              "url": "https://data.riksdagen.se/fil/3456E290-FA07-49D8-BAD9-F7BEFE5D75CB"
+            },
+            {
+              "typ": "pdf",
+              "namn": "mot_202021__2972.pdf",
+              "storlek": "100326",
+              "url": "https://data.riksdagen.se/fil/0B07C85F-A549-4C8F-A046-17CA493F2F62"
+            }
+          ]
+        },
+        "avdelning": "alla",
+        "avdelningar": {
+          "avdelning": [
+            "alla",
+            "dokument"
+          ]
+        },
+        "struktur": "",
+        "audio": "",
+        "video": "",
+        "debattgrupp": "",
+        "debattdag": "",
+        "beslutsdag": "",
+        "beredningsdag": "",
+        "justeringsdag": "",
+        "beslutad": "",
+        "debattsekunder": "",
+        "ardometyp": "",
+        "reservationer": "",
+        "debatt": null,
+        "debattnamn": "Motion",
+        "dokumentnamn": "Motion"
+      }
+    ]
+  }
+}

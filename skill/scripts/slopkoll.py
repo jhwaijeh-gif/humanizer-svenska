@@ -70,6 +70,15 @@ EGENNAMN_UNDANTAG = {
     "Workspace", "Teams", "Drive", "Docs", "Sheets", "Windows", "Office",
 }
 
+# Ord som gör ett versalt nationalitetsord till ett egennamn. "Europeiska
+# unionen" och "Svenska kyrkan" ska ha versal, till skillnad från "en europeisk
+# fråga". Hittat genom blindtestet, där verktyget flaggade EU som fel.
+EGENNAMNSFORTSATTNING = (
+    "unionen", "unionens", "kommissionen", "rådet", "rådets", "parlamentet",
+    "domstolen", "kyrkan", "kyrkans", "akademien", "akademin", "institutet",
+    "kanalen", "centralbanken", "handelskammaren", "samarbetet",
+)
+
 # Namn där apostrof-s är korrekt, eftersom de inte är svenska ord.
 UTLANDSKA_NAMN = re.compile(
     r"^(Mc|Mac|O')|^(McDonald|Levi|Kellogg|Hershey|Wendy|Applebee|Dunkin|Sainsbury|Macy|Lloyd|Moody|Standard)",
@@ -398,6 +407,9 @@ def kolla_skrivregler(rader, data, strikt_tankstreck):
             fore = naken[:m.start()].rstrip()
             if not fore or fore[-1] in ".!?:" or ar_rubrik(rad) and not fore:
                 continue
+            efter = naken[m.end():m.end() + 26].lstrip().lower()
+            if any(efter.startswith(o) for o in EGENNAMNSFORTSATTNING):
+                continue
             sort = ("Månad" if lag in manader else
                     "Veckodag" if lag in veckodagar else
                     "Språk eller nationalitet")
@@ -439,19 +451,50 @@ def kolla_rubrikversaler(rader):
     return t
 
 
+FINITA_VERB = {
+    "har", "hade", "är", "var", "blir", "blev", "kan", "kunde", "ska",
+    "skall", "skulle", "måste", "bör", "borde", "får", "fick", "finns",
+    "gör", "gjorde", "vill", "ville", "behöver", "krävs", "saknas", "går",
+    "ligger", "står", "sker", "gäller", "innebär", "leder",
+}
+
+
+def har_finit_verb(led):
+    """
+    Grov gissning: bär ledet ett eget verb är det en sats och inte ett
+    uppräkningsled. Komma mellan huvudsatser före och är korrekt svenska.
+
+    Utan syntaxanalys går det inte att göra bättre, och hellre missad träff
+    än falskt larm. Blindtestet gav tre falska larm av fem på den här regeln.
+    """
+    for o in led.lower().split():
+        if o in FINITA_VERB:
+            return True
+        if len(o) > 4 and (o.endswith("ade") or o.endswith("de") or o.endswith("te")):
+            return True
+        if len(o) > 4 and o.endswith("s") and not o.endswith("ns"):
+            return True
+    return False
+
+
 def kolla_oxfordkomma(rader):
     t = []
     for nr, rad in matbara_rader(rader):
         naken = rensa_markdown(rad)
-        # Bara korta uppräkningsled. Komma mellan två huvudsatser före och är
-        # korrekt svenska, och leden i en sådan är längre än tre ord.
+        # Bara äkta uppräkningar. Led med eget verb är satser, inte led.
         for m in re.finditer(
-                r"\b\w+(?:\s+\w+){0,2},\s+\w+(?:\s+\w+){0,2},\s+(och|eller|samt)\s+\w+",
+                r"\b(\w+(?:\s+\w+){0,2}),\s+(\w+(?:\s+\w+){0,2}),\s+(och|eller|samt)\s+\w+",
                 naken):
-            t.append(K(nr, "Oxfordkomma",
-                       "Komma före och, eller eller samt i en uppräkning är engelsk standard, inte svensk.",
-                       "Ta bort kommat före " + m.group(1) + ".",
-                       klipp(naken, m.start()), 2))
+            if har_finit_verb(m.group(1)) or har_finit_verb(m.group(2)):
+                continue
+            # Ligger på AI-luktaxeln, inte bland regelfelen. Komma mellan
+            # huvudsatser före och ÄR korrekt svenska, och ett regex kan inte
+            # avgöra vilket fall det är. Ett osäkert fynd får inte räknas in i
+            # ett tal som ska vara objektivt.
+            t.append(Traff(nr, "ai", "observerat", "Möjligt oxfordkomma",
+                           "Komma före och i en uppräkning är engelsk standard, inte svensk. Men komma mellan två huvudsatser är korrekt svenska, och det går inte att skilja dem åt utan att läsa. Kontrollera själv.",
+                           "Är det en uppräkning: ta bort kommat före " + m.group(3) + ". Är det två satser: låt stå.",
+                           klipp(naken, m.start()), 1, "struktur"))
     return t
 
 
