@@ -1,0 +1,113 @@
+{
+  "version": "0.2.0",
+  "uppdaterad": "2026-09-19",
+  "om": "Mönsterdata för slopkoll.py.",
+
+  "tva_axlar": {
+    "korrekthet": "Svenska skrivregler. Rätt eller fel svenska, oberoende av vem som skrivit texten. Har ingenting med AI att göra. Genereras i koden, inte här.",
+    "ai": "Drag som gör att en text läser som AI. Här gäller bevisgraderingen nedan."
+  },
+
+  "bevisgrader": {
+    "matt": "Uppmätt i en svensk studie. Bara tre saker kvalificerar: meningslängd, ordvariation och avsändar-vi. Genereras i koden.",
+    "observerat": "Flera oberoende svenska källor pekar ut draget. Ingen har mätt frekvensen. Allt i listan nedan ligger här."
+  },
+
+  "varning": "Ingen tröskel i det här verktyget är kalibrerad mot en svensk korpus. Siffrorna är riktvärden. Se KALIBRERING.md.",
+
+  "grupper": {
+    "anglicism": "Direktöversatt engelska. Svensk AI-text är oftast tänkt på engelska, och det syns här före det syns i ordvalet.",
+    "ord": "Enskilda ord som svenska källor pekar ut som överanvända. Enstaka förekomst är aldrig ett fel. Bara täthet räknas.",
+    "fras": "Färdiga formuleringar som återkommer.",
+    "hedging": "Urvattning. Påståendet görs så försiktigt att det slutar betyda något. Vägs inte i myndighetstext och rapport, där förbehåll ofta krävs.",
+    "metatext": "Rester från chattfönstret som följt med in i texten."
+  },
+
+  "monster": [
+
+    {"id": "meta-omskriven", "grupp": "metatext", "vikt": 6, "re": "(här (är|kommer) (en |den )?(omskriven|förbättrad|reviderad|uppdaterad)|jag har (skrivit om|omarbetat|justerat) texten|nedan (följer|hittar du) (den )?(omskrivna|reviderade))", "visa": "rest från chattsvaret", "varfor": "Modellens egen inramning har följt med in i texten.", "istallet": "Ta bort hela meningen."},
+    {"id": "meta-hoppas-hjalper", "grupp": "metatext", "vikt": 6, "re": "(hoppas (detta|det här) (var till |är till )?hjälp|säg till om du vill att jag|vill du att jag (ska )?(justera|ändra|fortsätta))", "visa": "assistentfras", "varfor": "Texten talar till en uppdragsgivare i stället för till läsaren.", "istallet": "Ta bort."},
+    {"id": "meta-som-ai", "grupp": "metatext", "vikt": 6, "re": "(som (en )?(AI|språkmodell)|i egenskap av (en )?(AI|språkmodell))", "visa": "modellen presenterar sig", "varfor": "Ska aldrig finnas i en färdig text.", "istallet": "Ta bort."},
+
+    {"id": "ang-digitala-landskapet", "grupp": "anglicism", "vikt": 5, "re": "(det |i det |i dagens )?(digitala|teknologiska|moderna|föränderliga) landskap", "visa": "det digitala landskapet", "varfor": "the digital landscape. Metafor som ersätter ett besked om vad som faktiskt händer.", "istallet": "Säg vilken bransch och vad som ändrats."},
+    {"id": "ang-i-en-varld-dar", "grupp": "anglicism", "vikt": 5, "re": "i (en|dagens|vår) (alltmer |allt mer |ständigt )?(digitaliserad\\w*|uppkopplad\\w*|snabbrörlig\\w*|föränderlig\\w*|sammankopplad\\w*|konkurrensutsatt\\w*)?\\s?(värld|samhälle|tid|marknad)", "visa": "i en värld där", "varfor": "Utpekad av två oberoende svenska källor. Den mest igenkända AI-inledningen på svenska.", "istallet": "Stryk inledningen. Börja med poängen."},
+    {"id": "ang-daglig-basis", "grupp": "anglicism", "vikt": 4, "re": "på (en )?(daglig|regelbunden|veckovis|månatlig|kontinuerlig) basis", "visa": "på daglig basis", "varfor": "on a daily basis. Svenskan har ett ord för det.", "istallet": "dagligen, varje vecka"},
+    {"id": "ang-i-termer-av", "grupp": "anglicism", "vikt": 4, "re": "i termer av", "visa": "i termer av", "varfor": "in terms of.", "istallet": "när det gäller, i fråga om, eller stryk"},
+    {"id": "ang-nar-det-kommer-till", "grupp": "anglicism", "vikt": 3, "re": "när det kommer till", "visa": "när det kommer till", "varfor": "when it comes to. Etablerad i talspråk, tydlig markör i skrift.", "istallet": "vad gäller, i fråga om"},
+    {"id": "ang-adressera", "grupp": "anglicism", "vikt": 4, "re": "adresser(a|ar|ade|at) (detta |dessa |problem|frågan|utmaning|behov|risk|bristen)", "visa": "adressera ett problem", "varfor": "address the issue. På svenska adresserar man brev.", "istallet": "ta itu med, hantera, lösa"},
+    {"id": "ang-spelar-roll", "grupp": "anglicism", "vikt": 4, "re": "spelar en (avgörande|viktig|central|nyckel|betydande)\\w* roll", "visa": "spelar en avgörande roll", "varfor": "plays a crucial role. Säger att något är viktigt utan att säga hur.", "istallet": "Säg vad saken gör."},
+    {"id": "ang-det-rekommenderas", "grupp": "anglicism", "vikt": 4, "re": "(det rekommenderas|det bör noteras|det kan konstateras|det är att rekommendera) att", "visa": "det rekommenderas att", "varfor": "Passiv konstruktion utan avsändare. Vem rekommenderar?", "istallet": "Vi rekommenderar, eller Gör så här."},
+    {"id": "ang-ta-en-titt", "grupp": "anglicism", "vikt": 3, "re": "ta en (närmare )?titt på", "visa": "ta en titt på", "varfor": "take a look at.", "istallet": "titta på, gå igenom"},
+    {"id": "ang-ga-framat", "grupp": "anglicism", "vikt": 3, "re": "(gå|går|gående) framåt[,.]", "visa": "gå framåt", "varfor": "going forward.", "istallet": "framöver, härefter"},
+    {"id": "ang-i-ljuset-av", "grupp": "anglicism", "vikt": 3, "re": "i ljuset av", "visa": "i ljuset av", "varfor": "in light of.", "istallet": "med tanke på, eftersom"},
+    {"id": "ang-inverkan-pa", "grupp": "anglicism", "vikt": 3, "re": "ha(r|de)? en (stor |betydande |positiv |negativ |direkt )?(inverkan|påverkan) på", "visa": "ha en inverkan på", "varfor": "have an impact on. Substantiv där svenskan har ett verb.", "istallet": "påverkar"},
+    {"id": "ang-i-slutandan", "grupp": "anglicism", "vikt": 3, "re": "(i slutändan|när allt kommer omkring|vid slutet av dagen|i sista hand)", "visa": "i slutändan", "varfor": "at the end of the day. Fyller ut.", "istallet": "Stryk. Gå direkt på slutsatsen."},
+    {"id": "ang-kraften-i", "grupp": "anglicism", "vikt": 4, "re": "(dra nytta av|utnyttja|upptäck|frigör) (kraften|potentialen|möjligheterna)", "visa": "dra nytta av kraften i", "varfor": "leverage the power of.", "istallet": "använd, spara, bygg"},
+    {"id": "ang-las-upp", "grupp": "anglicism", "vikt": 5, "re": "lås(a|er)? upp (din|ditt|dina|er|ert|era|sin|full|hela)", "visa": "lås upp din potential", "varfor": "unlock your potential.", "istallet": "Säg vad läsaren faktiskt får."},
+    {"id": "ang-nasta-niva", "grupp": "anglicism", "vikt": 5, "re": "till nästa nivå", "visa": "ta X till nästa nivå", "varfor": "take it to the next level.", "istallet": "Säg vad som blir bättre och hur mycket."},
+    {"id": "ang-har-for-att-stanna", "grupp": "anglicism", "vikt": 4, "re": "är här för att stanna", "visa": "är här för att stanna", "varfor": "is here to stay.", "istallet": "Stryk, eller skriv vad det betyder konkret."},
+    {"id": "ang-skraddarsydda", "grupp": "anglicism", "vikt": 4, "re": "skräddarsy(dd|dda|tt)\\w* (lösning|paket|upplägg|tjänst)\\w*", "visa": "skräddarsydda lösningar", "varfor": "tailored solutions. Säger att något är anpassat utan att säga till vad.", "istallet": "Säg vad ni gör annorlunda för just den kunden."},
+    {"id": "ang-losningar", "grupp": "anglicism", "vikt": 3, "re": "(helhets|affärs|digitala|innovativa|smarta|skalbara|kompletta)lösning(ar|en|arna)?\\b", "visa": "lösningar som produktnamn", "varfor": "solutions. Döljer vad produkten är.", "istallet": "Säg vad saken ÄR: en kurs, ett verktyg, en tjänst."},
+    {"id": "ang-i-dagens-digitala", "grupp": "anglicism", "vikt": 5, "re": "i dagens (digitala|moderna|snabba|uppkopplade)", "visa": "i dagens digitala värld", "varfor": "in today's digital world. Slopprolog.", "istallet": "Stryk. Börja med poängen."},
+
+    {"id": "ord-banbrytande", "grupp": "ord", "vikt": 4, "re": "banbrytande", "visa": "banbrytande", "varfor": "Utpekad av två oberoende svenska källor.", "istallet": "Beskriv vad som är nytt."},
+    {"id": "ord-oumbarlig", "grupp": "ord", "vikt": 4, "re": "oumbärlig\\w*", "visa": "oumbärlig", "varfor": "Utpekad av svensk källa. Överdrift utan täckning.", "istallet": "Säg vad som går förlorat utan den."},
+    {"id": "ord-navigera", "grupp": "ord", "vikt": 4, "re": "navigera (i|genom|bland|det|den)", "visa": "navigera i landskapet", "varfor": "Utpekad av svensk källa. Metafor i stället för besked.", "istallet": "Säg vad man faktiskt gör."},
+    {"id": "ord-valrenommerad", "grupp": "ord", "vikt": 4, "re": "välrenommerad\\w*", "visa": "välrenommerad", "varfor": "Utpekad av svensk källa. Nästan ingen svensk säger så.", "istallet": "Namnge den faktiska meriten."},
+    {"id": "ord-valinformerad", "grupp": "ord", "vikt": 3, "re": "välinformerad\\w*", "visa": "välinformerad", "varfor": "Utpekad av svensk källa.", "istallet": "Stryk."},
+    {"id": "ord-designad-for", "grupp": "ord", "vikt": 4, "re": "designad(e|t)? för att", "visa": "designad för att", "varfor": "Utpekad av svensk källa. designed to.", "istallet": "Säg vad den gör, inte vad den är tänkt att göra."},
+    {"id": "ord-djupdyka", "grupp": "ord", "vikt": 4, "re": "(låt oss |vi ska |vi kommer att )?(djupdyk\\w+|dyka ner i|dyka djupare)", "visa": "djupdyka, dyka ner i", "varfor": "Motsvarar delve, det mest uppmätta ordet i engelsk LLM-text.", "istallet": "Gå rakt på saken."},
+    {"id": "ord-avgorande", "grupp": "ord", "vikt": 2, "re": "avgörande", "visa": "avgörande", "varfor": "Utpekad av svensk källa. Motsvarar crucial. Vanligt även i mänsklig svenska, därför låg vikt: bara täthet räknas.", "istallet": "Stryk, eller säg varför."},
+    {"id": "ord-vital", "grupp": "ord", "vikt": 2, "re": "vital(t|a)?\\b", "visa": "vital", "varfor": "Utpekad av svensk källa.", "istallet": "viktig, eller stryk"},
+    {"id": "ord-utforska", "grupp": "ord", "vikt": 1, "re": "\\butforska\\w*", "visa": "utforska", "varfor": "Utpekad av svensk källa, men helt normal svenska. Räknas bara i mängd.", "istallet": "Ofta strykbar."},
+    {"id": "ord-noggrann-korrekt", "grupp": "ord", "vikt": 1, "re": "\\b(noggrann|korrekt)(a|t)?\\b", "visa": "noggrann, korrekt", "varfor": "Utpekade av svensk källa. Ofarliga i sig, misstänkta i mängd.", "istallet": "Ofta strykbara."},
+    {"id": "ord-kraftfull", "grupp": "ord", "vikt": 3, "re": "kraftfull(t|a)?\\b", "visa": "kraftfull", "varfor": "powerful. Tomt beröm.", "istallet": "Säg vad den klarar."},
+    {"id": "ord-innovativ", "grupp": "ord", "vikt": 3, "re": "innovativ(t|a)?\\b", "visa": "innovativ", "varfor": "Tomt beröm.", "istallet": "Beskriv vad som är nytt."},
+    {"id": "ord-holistisk", "grupp": "ord", "vikt": 3, "re": "holistisk(t|a)?\\b", "visa": "holistisk", "varfor": "Konsultvokabulär.", "istallet": "Räkna upp vad som ingår."},
+    {"id": "ord-somlos", "grupp": "ord", "vikt": 2, "re": "sömlös(t|a)?\\b", "visa": "sömlös", "varfor": "seamless. Läser som översättning.", "istallet": "Säg att det fungerar utan handpåläggning."},
+    {"id": "ord-robust-skalbar", "grupp": "ord", "vikt": 2, "re": "\\b(robust|skalbar)(t|a)?\\b", "visa": "robust, skalbar", "varfor": "Konsultvokabulär.", "istallet": "Säg vad den tål och hur mycket."},
+    {"id": "ord-effektivisera", "grupp": "ord", "vikt": 2, "re": "effektiviser(a|ar|ing|at|ande)", "visa": "effektivisera", "varfor": "Vagt. Säger inte vad som sparas.", "istallet": "Säg hur många timmar eller kronor."},
+    {"id": "ord-optimera", "grupp": "ord", "vikt": 1, "re": "optimer(a|ar|ing|at|ande)", "visa": "optimera", "varfor": "Vagt, men vanligt i mänsklig facksvenska. Låg vikt.", "istallet": "Säg vad som ändras och hur mycket."},
+    {"id": "ord-superlativstapel", "grupp": "ord", "vikt": 3, "re": "\\b(fantastisk|imponerande|magnifik|otrolig|enastående|exceptionell)(t|a)?\\b", "visa": "positivt laddade adjektiv", "varfor": "Svensk lärarkälla pekar ut adjektivstaplar före ämnet som ChatGPT-markör.", "istallet": "Ta bort adjektivet. Låt saken tala."},
+    {"id": "ord-ai-driven", "grupp": "ord", "vikt": 3, "re": "(AI-driven|AI-powered|AI-drivet|AI-drivna)", "visa": "AI-driven som adjektiv", "varfor": "Säger inte vad AI:n gör.", "istallet": "Säg vad den faktiskt utför."},
+
+    {"id": "fras-sammanfattningsvis", "grupp": "fras", "vikt": 5, "re": "(sammanfattningsvis|avslutningsvis|slutligen kan (vi|man)|för att summera|sammanfattat kan man säga)", "visa": "sammanfattningsvis", "varfor": "Utpekad av två oberoende svenska källor. Sista stycket upprepar det som redan stod.", "istallet": "Sluta på den sista konkreta punkten."},
+    {"id": "fras-viktigt-att-notera", "grupp": "fras", "vikt": 5, "re": "det är (viktigt|värt|bra) att (notera|komma ihåg|lägga på minnet|nämna|påpeka|understryka)", "visa": "det är viktigt att notera att", "varfor": "Utpekad av svensk lärarkälla. Utfyllnad före det som skulle sagts.", "istallet": "Säg det bara."},
+    {"id": "fras-inte-bara-utan", "grupp": "fras", "vikt": 5, "re": "inte bara [^.!?]{2,60} utan (också|även|dessutom)", "visa": "inte bara X utan också Y", "varfor": "Utpekad av svensk källa. Den mest igenkända AI-satsbyggnaden som finns, på svenska och engelska.", "istallet": "Två meningar, eller stryk den ena halvan."},
+    {"id": "fras-handlar-inte-bara", "grupp": "fras", "vikt": 5, "re": "handlar inte (bara |enbart )?om [^.!?]{2,60}[.,] (det |utan )?handlar om", "visa": "Det handlar inte om X. Det handlar om Y.", "varfor": "Retorisk vändning som modellerna använder som standardavslutning.", "istallet": "Säg vad det handlar om, en gång."},
+    {"id": "fras-ingen-tvekan", "grupp": "fras", "vikt": 4, "re": "det råder ingen tvekan om att", "visa": "det råder ingen tvekan om att", "varfor": "Påstår säkerhet i stället för att visa den.", "istallet": "Stryk. Påståendet står bättre ensamt."},
+    {"id": "fras-lat-oss", "grupp": "fras", "vikt": 4, "re": "låt oss (titta|se|utforska|dyka|gå igenom|börja med|anta)", "visa": "låt oss titta närmare på", "varfor": "Skolmässig övergång.", "istallet": "Gå direkt till innehållet."},
+    {"id": "fras-balansgang", "grupp": "fras", "vikt": 4, "re": "(en balansgång|hitta (rätt |den rätta )?balansen mellan|å ena sidan[^.!?]{2,80}å andra sidan)", "visa": "hitta balansen mellan X och Y", "varfor": "Standardsättet att undvika att ta ställning.", "istallet": "Ta ställning, eller säg vad som avgör valet."},
+    {"id": "fras-tva-sidor", "grupp": "fras", "vikt": 4, "re": "(två sidor av (samma )?myntet|det finns (både )?för- och nackdelar)", "visa": "två sidor av myntet", "varfor": "Kliché som ersätter en åsikt.", "istallet": "Säg vilken sida som väger tyngst och varför."},
+    {"id": "fras-aterstar-att-se", "grupp": "fras", "vikt": 4, "re": "det återstår att se", "visa": "det återstår att se", "varfor": "Avslutning som inte avslutar något.", "istallet": "Stryk, eller säg vad du tror och varför."},
+    {"id": "fras-hoppas-allt-bra", "grupp": "fras", "vikt": 5, "re": "hoppas (att )?(allt är bra|du mår bra|det här finner dig väl)", "visa": "hoppas att allt är bra", "varfor": "Artighetsfras utan innehåll. Vanligaste AI-öppningen i svenska mejl.", "istallet": "Börja med ärendet."},
+    {"id": "fras-tveka-inte", "grupp": "fras", "vikt": 5, "re": "(tveka inte att|tveka inte med att|hör gärna av dig om du har (några |ytterligare )?frågor)", "visa": "tveka inte att höra av dig", "varfor": "Undergiven utfyllnad.", "istallet": "Mejla mig på X, eller Ring om det är bråttom."},
+    {"id": "fras-ser-fram-emot", "grupp": "fras", "vikt": 4, "re": "(vi|jag) ser fram emot att (höra från|få höra från|samarbeta med)", "visa": "vi ser fram emot att höra från dig", "varfor": "Säljfras utan innehåll.", "istallet": "Säg till när det passar."},
+    {"id": "fras-spannande-tider", "grupp": "fras", "vikt": 4, "re": "(spännande tider|en spännande resa|vi är glada att (kunna )?meddela|vi är stolta att)", "visa": "spännande tider", "varfor": "Tomt.", "istallet": "Säg vad som händer och när."},
+    {"id": "fras-unik-mojlighet", "grupp": "fras", "vikt": 4, "re": "(unik möjlighet|exklusiv chans|gyllene tillfälle|en möjlighet du inte vill missa)", "visa": "unik möjlighet", "varfor": "Marknadsföringsslop.", "istallet": "Beskriv erbjudandet."},
+    {"id": "fras-ansokan-klicheer", "grupp": "fras", "vikt": 4, "re": "(driven och (målinriktad|engagerad|ansvarsfull)|är en lagspelare|många bollar i luften|brinner för|prestigelös)", "visa": "driven, lagspelare, många bollar i luften", "varfor": "Svenska rekryterare pekar ut exakt dessa som AI-flagga i jobbansökningar.", "istallet": "Ge ett exempel på något du gjort i stället."},
+    {"id": "fras-tank-dig", "grupp": "fras", "vikt": 3, "re": "(tänk dig att|föreställ dig att|tänk om du kunde)", "visa": "tänk dig att", "varfor": "Reklamgrepp som används som standardöppning.", "istallet": "Börja med det som faktiskt är sant."},
+    {"id": "fras-har-ar-x-saker", "grupp": "fras", "vikt": 3, "re": "här (är|kommer|följer) (de |några |[0-9]+ )?(viktiga |centrala |avgörande )?(saker|punkter|aspekter|faktorer|steg|tips|anledningar)", "visa": "här är X saker du behöver veta", "varfor": "Kallar ut sin egen struktur.", "istallet": "Skriv punkterna. Läsaren ser att det är en lista."},
+    {"id": "fras-i-denna-artikel", "grupp": "fras", "vikt": 4, "re": "(i (den här|denna) (artikeln?|guiden?|texten)|(denna|den här) (artikel|guide) (kommer|ska)|i det här inlägget)", "visa": "i den här artikeln kommer vi att", "varfor": "Kallar ut strukturen i stället för att leverera den.", "istallet": "Stryk. Börja med första punkten."},
+
+    {"id": "hedge-kan-potentiellt", "grupp": "hedging", "vikt": 4, "re": "(kan potentiellt|skulle potentiellt kunna|kan möjligen|kan eventuellt|skulle kunna tänkas)", "visa": "kan potentiellt", "varfor": "Dubbel gardering. Två osäkerhetsord i rad.", "istallet": "Välj ett, eller påstå saken rakt."},
+    {"id": "hedge-manga-ganger", "grupp": "hedging", "vikt": 2, "re": "(många gånger|i många fall|i vissa fall|generellt sett|i regel|som regel)", "visa": "många gånger, i vissa fall", "varfor": "Utpekad av svensk källa. Gör påståendet obestridligt och därmed innehållslöst.", "istallet": "Säg när det gäller och när det inte gäller."},
+    {"id": "hedge-alltid-bast", "grupp": "hedging", "vikt": 3, "re": "det är alltid (bäst|bra|klokt|en bra idé|viktigt) att", "visa": "det är alltid bäst att", "varfor": "Utpekad av svensk källa.", "istallet": "Gör så här, eller säg vem rådet gäller."},
+    {"id": "hedge-kan-tyckas", "grupp": "hedging", "vikt": 3, "re": "(det kan tyckas|man skulle kunna säga|det är möjligt att|vi anser att|det kan argumenteras)", "visa": "det kan tyckas att", "varfor": "Gardering före ett påstående som tål att stå själv.", "istallet": "Stryk inledningen."},
+    {"id": "hedge-beroende-pa", "grupp": "hedging", "vikt": 3, "re": "(varierar|beror) (beroende )?på (kontexten|situationen|sammanhanget|dina behov|era behov|flera faktorer)", "visa": "beror på situationen", "varfor": "Sant om allt, användbart om inget.", "istallet": "Säg vilka situationer och vad som skiljer dem."}
+  ],
+
+  "otestat": {
+    "om": "Rimliga hypoteser som INGEN har mätt. De finns här för att vara ärliga om kunskapsläget. De används aldrig av skriptet och får aldrig styra en omskrivning. Se references/vad-vi-inte-vet.md.",
+    "poster": [
+      {"id": "hyp-partiklar", "visa": "AI-svenska saknar talspråkspartiklar (ju, väl, nog, faktiskt)", "varfor": "Ingen källa, svensk eller engelsk, har mätt det. Att lägga in dem på måfå är verktygets värsta felmod: det låter tillgjort och luktar mer AI än originalet."},
+      {"id": "hyp-av-konstruktion", "visa": "AI väljer av-konstruktion där svenskan bygger ihop ord", "varfor": "Att svenskan komprimerar med sammansättning och engelskan med nominalfras är belagt. Att LLM gör det oftare än människor är det inte."},
+      {"id": "hyp-sin-sitt", "visa": "AI förväxlar sin, sitt, sina med hans, hennes, deras", "varfor": "Klassisk engelskinterferens hos människor. Ingen källa kopplar den till LLM-output."},
+      {"id": "hyp-v2", "visa": "AI bryter mot V2-ordföljden", "varfor": "Prövad och förkastad. Moderna modeller klarar svensk ordföljd. Togs medvetet bort ur verktyget."}
+    ]
+  },
+
+  "manader": ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"],
+  "veckodagar": ["måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag", "söndag"],
+  "sprak_nationalitet": ["svensk", "svenska", "engelsk", "engelska", "norsk", "norska", "dansk", "danska", "finsk", "finska", "tysk", "tyska", "fransk", "franska", "spansk", "spanska", "italiensk", "italienska", "polsk", "polska", "amerikansk", "amerikanska", "europeisk", "europeiska", "nordisk", "nordiska"]
+}
