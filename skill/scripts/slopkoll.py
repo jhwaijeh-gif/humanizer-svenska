@@ -319,11 +319,13 @@ def kolla_skrivregler(rader, data, strikt_tankstreck):
             continue
         naken = rensa_markdown(rad)
 
-        if "—" in rad:
+        # Varje förekomst räknas. Em-strecket är verktygets tydligaste regel
+        # och då ska antalet stämma.
+        for m in re.finditer("—", rad):
             t.append(K(nr, "Långt tankstreck (em-streck)",
-                       "Em-strecket finns inte i svensk typografi. Det är engelsk sättning som följt med in.",
+                       "Em-strecket finns inte i svensk typografi. Det är engelsk sättning som följt med in. Det korta tankstrecket är tillåtet, det långa är det inte.",
                        "Svenskt tankstreck med mellanslag runt, eller komma.",
-                       klipp(rad, rad.index("—")), 4))
+                       klipp(rad, m.start()), 4))
 
         if strikt_tankstreck and "–" in rad:
             t.append(K(nr, "Tankstreck",
@@ -501,6 +503,32 @@ def kolla_struktur(rader, matt, profil):
                                "Skriv svaret i rubriken i stället för frågan.",
                                txt, 2, "struktur"))
     return t
+
+
+def kolla_tankstreckstathet(rader, matt):
+    """
+    Det korta tankstrecket är korrekt svenska och flaggas inte som fel. Men
+    överanvändning är ett igenkänt AI-drag. En svensk rekryterare på Manpower
+    formulerar tröskeln så här: två eller tre gånger i en text är okej, vid
+    femte förekomsten vet man att det sannolikt är AI-skrivet.
+
+    Det långa em-strecket hanteras separat och är alltid fel på svenska.
+    """
+    antal = 0
+    for nr, rad in matbara_rader(rader):
+        antal += rensa_markdown(rad).count("–")
+    if antal == 0:
+        return []
+
+    tillatet = max(3, round(3 * matt["antal_ord"] / 1000.0))
+    if antal <= tillatet:
+        return []
+
+    return [Traff(0, "ai", "observerat", "Tankstreck %d gånger" % antal,
+                  "Tankstrecket är korrekt svenska och inget fel i sig. Men %d gånger i en text på %d ord är för tätt. Svenska rekryterare pekar ut just det som en AI-flagga: två eller tre gånger går bra, vid femte vet man."
+                  % (antal, matt["antal_ord"]),
+                  "Behåll de två eller tre som bär, byt resten mot komma, kolon eller punkt.",
+                  "", 3, "struktur")]
 
 
 def kolla_rytm(matt, profil):
@@ -787,6 +815,7 @@ def analysera(text, profilnamn="allman", strikt_tankstreck=False):
     traffar += kolla_skrivregler(rader, data, strikt_tankstreck)
     traffar += kolla_monster(rader, data, profil)
     traffar += kolla_struktur(rader, matt, profil)
+    traffar += kolla_tankstreckstathet(rader, matt)
     traffar += kolla_rytm(matt, profil)
     traffar += kolla_tilltal(rader, profil, matt)
 

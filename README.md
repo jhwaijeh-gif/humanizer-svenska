@@ -24,6 +24,8 @@ Det mesta som avslöjar svensk AI-text finns inte på någon engelsk lista, för
 reglerna existerar inte på engelska:
 
 - Svenska citattecken, `”så här”`, samma tecken i båda ändar
+- De två strecken hålls isär: `—` är alltid fel på svenska, `–` är tillåtet och
+  flaggas bara vid överanvändning
 - Decimalkomma, hårt mellanslag i tusental, mellanslag före procenttecken
 - Rubriker med bara första ordet versalt, inte Title Case
 - Gemener på månader, veckodagar, språk och nationaliteter

@@ -17,15 +17,36 @@ Rätta alltid. Fråga inte.
 | `"citat"` raka | `”citat”` | Raka citattecken pekas ut som tecken på att texten klistrats in direkt ur ett AI-svar. |
 | `X, Y, och Z` | `X, Y och Z` | Oxfordkomma är engelsk standard. Svenskan sätter inget komma före och. |
 
-**Om tankstrecket.** Svenska skrivregler tillåter tankstreck med mellanslag
-runt. Flera svenska språkkonsulter pekar ut överanvändning av det som ett
-AI-drag, medan andra invänder att det svenska tankstrecket alltid funnits och
-inte är någon indikator. Den enda mätning som finns gäller engelska och visar
-att frekvensen skiljer sig kraftigt mellan modeller, alltså är det
-modellspecifikt snarare än språkspecifikt.
+## De två strecken, och varför de behandlas olika
 
-Verktygets hållning: `—` är alltid fel på svenska. `–` är tillåtet. Vill du
-förbjuda det också är det ett stilval, och då kör du `--inga-tankstreck`.
+Detta är den vanligaste förväxlingen i hela ämnet, så den får en egen rubrik.
+
+| Tecken | Namn | Hur verktyget behandlar det |
+|---|---|---|
+| `—` | em-streck, långt | **Alltid fel.** Regelfel, varje förekomst räknas |
+| `–` | tankstreck, kort | **Tillåtet.** Flaggas bara vid överanvändning, och då som AI-lukt, inte som fel |
+
+**Det långa em-strecket finns inte i svensk typografi.** Det är amerikansk
+sättning. Hittar du det i en svensk text har det kommit dit via engelska, och
+det är därför det är den enskilt mest igenkända AI-markören i väst.
+
+**Det korta tankstrecket är korrekt svenska** och har alltid funnits här.
+Svenska skrivregler tillåter det med mellanslag runt. Att förbjuda det vore att
+tvinga på läsaren en stilregel i språkregelns namn.
+
+**Men täthet räknas.** En svensk rekryterare på Manpower Matchning formulerar
+tröskeln så här: två eller tre gånger i en text går bra, men vid femte
+förekomsten vet man att texten sannolikt är AI-skriven. Verktyget tillåter tre,
+plus tre till per tusen ord, och flaggar däröver som AI-lukt.
+
+Källorna går isär om det korta strecket. Språkkonsulterna och Frankly Media
+räknar överanvändning som ett AI-drag. Please Copy Me argumenterar tvärtom att
+det svenska tankstrecket inte är någon indikator alls. Den enda mätning som
+finns gäller engelska och visar 0,0 till 9,1 per tusen ord beroende på modell,
+alltså är frekvensen modellspecifik snarare än språkspecifik.
+
+Vill du förbjuda även det korta strecket är det ett stilval, inte en språkregel,
+och då kör du `--inga-tankstreck`.
 
 ## Tal
 

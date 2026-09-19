@@ -1,0 +1,1 @@
+Vi levererade i mars – fyra manader sent – och det kostade mer. Personalen larde sig systemet pa en vecka. Det var trevligt att ha fel at ratt hall.  och det kostade mer. Personalen larde sig systemet pa en vecka. Det var trevligt att ha fel at ratt hall.  och det kostade mer. Personalen larde sig systemet pa en vecka. Det var trevligt att ha fel at ratt hall. 

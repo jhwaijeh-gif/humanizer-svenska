@@ -31,7 +31,7 @@ säg att skillen inte gör det och erbjud stilredigeringen i stället.
 
 | Axel | Vad det är | Hur det bedöms |
 |---|---|---|
-| **Korrekthet** | Brott mot svenska skrivregler. Decimalkomma, citattecken, rubrikversaler, genitiv utan apostrof, gemener på månader och veckodagar. | Rätt eller fel svenska, oberoende av vem som skrivit texten. Ska vara 0. Har ingenting med AI att göra. |
+| **Korrekthet** | Brott mot svenska skrivregler. Decimalkomma, citattecken, rubrikversaler, genitiv utan apostrof, gemener på månader och veckodagar. Det långa em-strecket `—` är alltid fel, det korta tankstrecket `–` är tillåtet. | Rätt eller fel svenska, oberoende av vem som skrivit texten. Ska vara 0. Har ingenting med AI att göra. |
 | **AI-lukt** | Drag som gör att texten läser som maskin. | 0 till 100, lägre är bättre. Varje fynd bär sin bevisgrad. |
 
 Bevisgraderna inom AI-lukt:
