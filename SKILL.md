@@ -2,10 +2,8 @@
 name: svensk-humanizer
 description: >
   Tar AI-lukten ur svensk text: engelsk typografi, översatta konstruktioner,
-  tomma formuleringar och maskinrytm. Använd för att granska, humanisera,
-  avsloppa eller korrekturläsa svensk text, till exempel kundmejl, sajttext,
-  LinkedIn-inlägg och rapporter. Utlöses av "humanisera", "låter som AI",
-  "slopkoll" och "make this sound human in Swedish".
+  tomma formuleringar och maskinrytm. Granskar, humaniserar och korrekturläser
+  kundmejl, sajttext, inlägg och rapporter.
 license: MIT
 metadata:
   version: 0.3.0
@@ -18,9 +16,14 @@ Svensk AI-text är oftast tänkt på engelska och skriven på svenska. Det syns 
 strukturen före det syns i ordvalet. Den här skillen letar efter det, mäter det
 som går att mäta, och skriver om det som bör skrivas om.
 
+Använd den när någon ber om att humanisera, granska, avsloppa eller
+korrekturläsa svensk text, säger att en text "låter som AI", eller nämner
+slopkoll. Den passar kundmejl, sajttext, LinkedIn-inlägg, myndighetstext,
+jobbansökan och rapporter.
+
 **Vad den gör:** svensk stilredigering. Den fångar den uppenbara AI-tonen,
 alltså chattregistret och marknadsföringsslopet. Det är mätt: sådan text får
-85 av 100, mänsklig text får 0.
+85 av 100 med profilen `allman`, mänsklig text får 0.
 
 **Vad den inte gör:** hittar svenska som en modell skrivit med omsorg. I
 blindtest mot tio riksdagsmotioner från 2020 fick omsorgsfulla AI-texter samma

@@ -87,7 +87,7 @@ def main():
 
     rader = samla("manniska", "människa", args.profil) + samla("ai", "AI", args.profil)
     if not rader:
-        print("Inga texter i test/korpus/. Kör hämtningen först.")
+        print("Inga texter i test/korpus/. Korpusen ska ligga där.")
         return 2
 
     manniska = [r for r in rader if r["etikett"] == "människa"]

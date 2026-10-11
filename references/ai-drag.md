@@ -166,7 +166,8 @@ hjälper", "Som en AI-språkmodell". Ska aldrig finnas i en färdig text.
 ## Vad en ordlista inte kan
 
 Mattias Wahde, som byggt den svenska klassificerare som fann att 9,4 procent
-av riksdagsmotionerna 2025/26 innehöll AI-assisterat innehåll, säger
+av riksdagsmotionerna 2025/26 innehöll minst ett stycke med AI-assisterat
+innehåll, säger
 uttryckligen att "det går inte att säga att enskilda ord är AI-ord, det är
 mer komplext än så".
 
@@ -175,6 +176,9 @@ löser det inte. Meningslängdsvariationen och vi-perspektivet är de två ingre
 som har mätstöd. Resten är omdöme.
 
 https://arxiv.org/abs/2606.14209
+
+Citatet och siffran 9,4 procent står på Chalmers nyhetssida om studien:
+https://www.chalmers.se/aktuellt/nyheter/me-riksdagspolitiker-tar-hjalp-av-ai-nar-de-skriver-motioner-utan-att-redovisa-det/
 
 ---
 

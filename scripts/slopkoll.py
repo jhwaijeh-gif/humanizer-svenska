@@ -31,12 +31,12 @@ de översatta konstruktionerna. Det är vad de flesta menar när de säger att e
 text låter som AI, och det är vad verktyget är byggt för.
 
 Det fångar INTE svenska som en modell skrivit med omsorg. Mätt i ett blindtest
-mot tio riksdagsmotioner från 2020: AI-texter skrivna med omsorg fick lägre
-poäng än människorna. Se test/RESULTAT.md. Verktyget är en stilredigerare,
+mot tio riksdagsmotioner från 2020: AI-texter skrivna med omsorg fick samma
+median som människorna. Se test/RESULTAT.md. Verktyget är en stilredigerare,
 ingen detektor, och det säger aldrig hur sannolikt det är att en text är
 AI-genererad.
 
-Rytmtrösklarna är kalibrerade mot tio äkta människotexter i en genre.
+Rytmtrösklarna sänktes efter ett rimlighetstest på tio texter i en genre.
 Resten är riktvärden. Se KALIBRERING.md.
 """
 

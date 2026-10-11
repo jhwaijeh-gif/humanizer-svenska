@@ -9,6 +9,8 @@ och skrivsättet varierar.
 | `ai/` | 10 motioner på samma ämnen, skrivna med omsorg | Modell 2026, som fick ämne, genre och ordantal men aldrig sett det här verktyget |
 | `ai-standard/` | 10 motioner på samma ämnen, standardregister | Samma modell, minimal prompt, ingen hantverksinstruktion. Formaliahuvudet bortklippt så att bara brödtexten jämförs |
 
+Källa för människotexterna: Sveriges riksdag.
+
 Formaliahuvudet ("Motion till riksdagen", ledamotens namn, "Förslag till
 riksdagsbeslut") är bortklippt ur alla tre grupperna. Annars mäter man format
 i stället för språk.

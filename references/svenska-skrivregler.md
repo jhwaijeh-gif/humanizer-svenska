@@ -36,8 +36,10 @@ tvinga på läsaren en stilregel i språkregelns namn.
 
 **Men täthet räknas.** En svensk rekryterare på Manpower Matchning formulerar
 tröskeln så här: två eller tre gånger i en text går bra, men vid femte
-förekomsten vet man att texten sannolikt är AI-skriven. Verktyget tillåter tre,
-plus tre till per tusen ord, och flaggar däröver som AI-lukt.
+förekomsten vet man att texten sannolikt är AI-skriven. Rekryteraren talar om
+det långa strecket. Verktyget lånar tröskeln för det korta tankstrecket, vilket
+är ett eget val och inte uppmätt. Det tillåter tre, eller tre per tusen ord i
+längre texter (det större av de två), och flaggar däröver som AI-lukt.
 
 Källorna går isär om det korta strecket. Språkkonsulterna och Frankly Media
 räknar överanvändning som ett AI-drag. Please Copy Me argumenterar tvärtom att

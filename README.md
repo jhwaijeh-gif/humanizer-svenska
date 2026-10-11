@@ -26,15 +26,15 @@ Skillen heter `svensk-humanizer`. Den behöver Python 3.8 eller senare för mät
 
 ### Claude (Claude.ai och Claude Desktop)
 
-Ladda ner `svensk-humanizer.zip` från [Releases](https://github.com/jhwaijeh-gif/humanizer-svenska/releases/latest). Gå till **Customize > Skills**, tryck på **+**, välj **Upload a skill** och välj ZIP-filen. Kräver att *Code execution and file creation* är på under Settings > Capabilities.
+Ladda ner `svensk-humanizer.zip` från [Releases](https://github.com/jhwaijeh-gif/humanizer-svenska/releases/latest). Gå till **Customize > Skills**, tryck på **+**, välj **+ Create skill**, sedan **Upload a skill**, och välj ZIP-filen. Kräver att *Code execution and file creation* är på under Settings > Capabilities.
 
-Du kan också be Claude göra det i en chatt:
+Det finns också en genväg som inte är beskriven som installationsväg i Anthropics hjälpartiklar. Skriv i en chatt:
 
 ```
 Make this a skill and name it svensk-humanizer: https://github.com/jhwaijeh-gif/humanizer-svenska
 ```
 
-Claude hämtar filerna och visar ett kort med knappen **Save skill**. Det är du som trycker på den, chatten installerar inte åt dig.
+Med en annan skill hämtade Claude filerna från GitHub och visade ett kort med knappen **Save skill**, som man trycker på själv. Med den här skillen har jag inte provat det. Uppladdning av ZIP är den väg som är dokumenterad.
 
 ### Claude Code
 

@@ -1,7 +1,7 @@
 # Kalibrering: varför siffrorna är riktvärden
 
-**Rytmtrösklarna är kalibrerade mot tio äkta människotexter i en genre.
-Allt annat är riktvärden.**
+**Inget är kalibrerat mot en svensk korpus. Rytmtrösklarna sänktes efter ett
+rimlighetstest på tio texter i en genre. Allt annat är riktvärden.**
 
 Den 19 september 2026 kördes ett blindtest mot tio riksdagsmotioner från 2020.
 Lägsta spridning i meningslängd bland dem var 5,5 ord, och verktygets tröskel
@@ -22,7 +22,7 @@ studierna ger **riktning**, inte trösklar.
 |---|---|
 | AI-texternas typvärde låg på 28 ord, människornas på 19 (57 mot 57 texter, en texttyp, en modell) | Sätter olika tak per profil: 14 för LinkedIn, 23 för rapport. **Talen är valda, inte mätta.** |
 | AI-texter använde färre unika ord | Flaggar under 0,70 i rullande fönster. **Tröskeln är vald, inte mätt.** |
-| AI-texter saknade avsändar-vi (sex myndighetstexter) | Kräver vi i fyra av sju profiler. **Urvalet är omdöme, inte mätning.** |
+| AI-texter saknade avsändar-vi (sex myndighetstexter) | Kräver vi i tre av sju profiler (kundmejl, sajttext och myndighet). **Urvalet är omdöme, inte mätning.** |
 
 Viktningen i poängen är också vald. Att anglicismer får högst 20 poäng och
 tilltal högst 12 bygger på en bedömning av hur mycket de stör en svensk läsare,

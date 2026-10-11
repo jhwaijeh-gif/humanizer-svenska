@@ -143,9 +143,8 @@ svenska, förstå varför en formulering är svag, och lära sig skillnaden mell
 en gardering och ett påstående. Det är språkhjälp och den är legitim.
 
 Den hjälper inte till att dölja att ett examinerande arbete är AI-genererat.
-Anthropics användarvillkor förbjuder att framställa AI-resultat som
-människoskrivet. Universitetskanslersämbetet rapporterade 851 avstängda eller
-varnade svenska studenter för AI-fusk under 2025, mot 237 året innan.
+Anthropics användarvillkor förbjuder att lämna in AI-assisterat arbete utan
+tillstånd eller attribution.
 
 Ber någon uttryckligen om det senare: säg att skillen inte gör det, förklara
 kort varför, och erbjud språkhjälpen i stället. Moralisera inte.

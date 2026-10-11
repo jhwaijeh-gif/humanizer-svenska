@@ -65,7 +65,7 @@ svenska är värre än inget verktyg.
 
 | Text | AI-lukt | Regelfel |
 |---|---|---|
-| Svensk text i chattregister, med marknadsföringsslop | **85** | 6 |
+| Svensk text i chattregister, med marknadsföringsslop (profil `allman`) | **85** | 6 |
 | Svensk text skriven av en människa | **0** | 0 |
 
 Skillnaden mellan 85 och 0 är verklig och det är den skillnaden användare
