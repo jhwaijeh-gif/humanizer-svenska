@@ -27,7 +27,7 @@ import sys
 
 HAR = os.path.dirname(os.path.abspath(__file__))
 ROT = os.path.dirname(HAR)
-SLOPKOLL = os.path.join(ROT, "skill", "scripts", "slopkoll.py")
+SLOPKOLL = os.path.join(ROT, "scripts", "slopkoll.py")
 
 
 def kor(sokvag, profil):
@@ -139,7 +139,7 @@ def main():
         print("  flaggar korrekt svenska är värre än inget verktyg.")
     print()
     print("  Detta är 20 texter i en genre. Det är ett rimlighetstest, inte en")
-    print("  kalibrering. Se skill/KALIBRERING.md.")
+    print("  kalibrering. Se KALIBRERING.md.")
     print()
     return 0
 

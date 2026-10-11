@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer för svenska"
+  short_description: "Ta AI-lukten ur svensk text"
+  default_prompt: "Använd $svensk-humanizer för att granska den här svenska texten och skriva om det som flaggas, utan att ändra vad den säger."

@@ -3,7 +3,7 @@
 Profilen ändrar trösklarna, inte bara råden. Fel profil ger fel svar, så fråga
 om det inte framgår vad texten är.
 
-Kör `python skill/scripts/slopkoll.py --profiler` för att se dem i terminalen.
+Kör `python scripts/slopkoll.py --profiler` för att se dem i terminalen.
 
 ---
 

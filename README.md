@@ -22,39 +22,84 @@ Den hjälper inte text att undgå AI-detektorer, den anger aldrig hur sannolikt 
 
 ## Installation
 
-Kopiera mappen `skill/` till din skills-katalog och döp den till `svensk-humanizer`:
+Skillen heter `svensk-humanizer`. Den behöver Python 3.8 eller senare för mätdelen. Inga paket och ingen nätverkstrafik, allt körs lokalt.
+
+### Claude (Claude.ai och Claude Desktop)
+
+Ladda ner `svensk-humanizer.zip` från [Releases](https://github.com/jhwaijeh-gif/humanizer-svenska/releases/latest). Gå till **Customize > Skills**, tryck på **+**, välj **Upload a skill** och välj ZIP-filen. Kräver att *Code execution and file creation* är på under Settings > Capabilities.
+
+Du kan också be Claude göra det i en chatt:
 
 ```
-~/.claude/skills/svensk-humanizer/
+Make this a skill and name it svensk-humanizer: https://github.com/jhwaijeh-gif/humanizer-svenska
 ```
 
-Kräver Python 3.8 eller senare. Inga paket och ingen nätverkstrafik, mätdelen körs lokalt.
+Claude hämtar filerna och visar ett kort med knappen **Save skill**. Det är du som trycker på den, chatten installerar inte åt dig.
+
+### Claude Code
+
+```
+/plugin marketplace add jhwaijeh-gif/humanizer-svenska
+/plugin install svensk-humanizer@humanizer-svenska
+```
+
+Eller med Skills CLI:
+
+```
+npx skills add jhwaijeh-gif/humanizer-svenska --global --agent claude-code
+```
+
+### ChatGPT
+
+Enligt OpenAIs hjälpsida finns skills i ChatGPT för Business, Enterprise, Healthcare och Edu, inte för vanliga privatkonton. Gå till **Plugins > Skills > Create > Upload from your computer** och ladda upp `svensk-humanizer.zip`. Om ditt konto saknar det valet går det inte att installera där.
+
+### Codex och andra agenter
+
+```
+npx skills add jhwaijeh-gif/humanizer-svenska --global --agent codex
+```
+
+Eller kopiera filerna till agentens skills-mapp och döp mappen till `svensk-humanizer`.
+
+## Vad jag testat
+
+Allt som inte står som testat är ej testat.
+
+| Väg | Status |
+|---|---|
+| Mätdelen på lokala texter (`python scripts/slopkoll.py`) | Testat, se [`test/`](test/) |
+| Claude.ai, uppladdning av ZIP | Ej testat |
+| Claude.ai, via chatten | Ej testat |
+| Claude Code, plugin | Ej testat |
+| `npx skills add` | Ej testat |
+| ChatGPT | Ej testat, och kräver ett konto där skills finns |
 
 ## Användning
 
-Be om det i vanlig text, till exempel "humanisera den här texten" eller "låter det här som AI?".
+Be om det i vanlig text, till exempel "humanisera den här texten" eller "låter det här som AI?". Eller skriv `/svensk-humanizer`.
 
-Mätdelen går också att köra direkt:
+Mätdelen går också att köra direkt från repots rot:
 
 ```bash
-python skill/scripts/slopkoll.py text.md --profil sajttext
+python scripts/slopkoll.py text.md --profil sajttext
+python scripts/faktavakt.py original.md omskriven.md
 ```
 
 Profiler: `kundmejl`, `sajttext`, `linkedin`, `myndighet`, `ansokan`, `rapport`, `allman`.
 
-```bash
-python skill/scripts/faktavakt.py original.md omskriven.md
-```
-
 ## Begränsningar
 
-- Trösklarna är inte kalibrerade. Hur det skulle gå till står i [`skill/KALIBRERING.md`](skill/KALIBRERING.md).
+- Trösklarna är inte kalibrerade. Hur det skulle gå till står i [`KALIBRERING.md`](KALIBRERING.md).
 - Underlaget är tunt. Mycket av det svenskspecifika är iakttagelser, inte mätningar.
 - Blindtestet gav ett delvis negativt resultat. Hela testet, inklusive det som underkändes, står i [`test/RESULTAT.md`](test/RESULTAT.md).
 - Ingen har mätt hur AI-detektorer presterar på svensk text, och inte jag heller.
 - Poängen är ett bearbetningsbehov, aldrig en sannolikhet.
 
-Underlaget bakom mönstren ligger i [`skill/references/ai-drag.md`](skill/references/ai-drag.md). Jag har inte granskat det så noga att jag står för varje detalj.
+Underlaget bakom mönstren ligger i [`references/ai-drag.md`](references/ai-drag.md). Jag har inte granskat det så noga att jag står för varje detalj.
+
+## Säkerhet
+
+Skripten i `scripts/` läser bara de textfiler du pekar ut och skriver till terminalen. De gör inga nätverksanrop och skriver inga filer. Läs dem gärna innan du installerar, det är vanlig Python utan beroenden. `test/blindtest.py` är bara till för mina egna tester.
 
 ## Licens
 
@@ -68,4 +113,4 @@ Byggd av Jude Hwaijeh.
 
 A Claude Skill that removes the AI smell from Swedish text. I built it for my own use and I am publishing it as is. It is not scientific: the thresholds are uncalibrated, and my own blind test (in `test/RESULTAT.md`) shows it catches obvious AI tone but not carefully written AI Swedish. It is a style editor, not a detector evasion tool. Documentation is in Swedish.
 
-Install: copy `skill/` to `~/.claude/skills/svensk-humanizer/`. Requires Python 3.8+. MIT licensed.
+Install: download `svensk-humanizer.zip` from Releases and upload it as a skill, or in Claude Code run `/plugin marketplace add jhwaijeh-gif/humanizer-svenska`. Requires Python 3.8+. MIT licensed.

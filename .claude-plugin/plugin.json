@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "svensk-humanizer",
+  "description": "Tar AI-lukten ur svensk text. För eget bruk, inte vetenskapligt.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Jude Hwaijeh",
+    "url": "https://github.com/jhwaijeh-gif"
+  },
+  "homepage": "https://github.com/jhwaijeh-gif/humanizer-svenska",
+  "repository": "https://github.com/jhwaijeh-gif/humanizer-svenska",
+  "license": "MIT",
+  "keywords": ["svenska", "swedish", "humanizer", "writing", "editing"],
+  "skills": ["./"]
+}

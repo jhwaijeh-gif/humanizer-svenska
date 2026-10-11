@@ -1,17 +1,14 @@
 ---
 name: svensk-humanizer
 description: >
-  Tar AI-lukten ur svensk text och gör den till svenska som en människa skulle
-  skrivit. Använd vid varje begäran om att granska, humanisera, avsloppa,
-  förbättra eller korrekturläsa en text på svenska, och innan du själv lämnar
-  ifrån dig längre svensk text. Utlöses av "humanisera", "låter som AI",
-  "gör det mindre AI-igt", "skriv om på riktig svenska", "svensk språkgranskning",
-  "humanize this Swedish text", "make this sound human in Swedish",
-  "AI-text", "slopkoll". Hanterar kundmejl, sajttext, LinkedIn-inlägg,
-  myndighetstext, jobbansökan och rapport. Bygger på svenska skrivregler och
-  de tre mätningar som faktiskt gjorts på svensk AI-text.
+  Tar AI-lukten ur svensk text: engelsk typografi, översatta konstruktioner,
+  tomma formuleringar och maskinrytm. Använd för att granska, humanisera,
+  avsloppa eller korrekturläsa svensk text, till exempel kundmejl, sajttext,
+  LinkedIn-inlägg och rapporter. Utlöses av "humanisera", "låter som AI",
+  "slopkoll" och "make this sound human in Swedish".
+license: MIT
 metadata:
-  version: 0.2.0
+  version: 0.3.0
   sprak: svenska
 ---
 
@@ -55,10 +52,11 @@ korrekthet rättas, [observerat] föreslås.** Det som ingen mätt alls ligger i
 
 ### 1. `granska`, bara diagnos
 
-Kör mätningen och redovisa. Skriv inte om något.
+Kör mätningen och redovisa. Skriv inte om något. Sökvägarna till skripten
+är relativa till den här skillens egen mapp, inte till projektet du står i.
 
 ```bash
-python skill/scripts/slopkoll.py TEXTFIL --profil PROFIL
+python scripts/slopkoll.py TEXTFIL --profil PROFIL
 ```
 
 Profiler: `kundmejl`, `sajttext`, `linkedin`, `myndighet`, `ansokan`,
@@ -93,7 +91,7 @@ Sju spärrar, alla obligatoriska:
 5. **Kör faktavakten efteråt.** Fallerar den, kassera omskrivningen och gör om
    med mindre ingrepp.
    ```bash
-   python skill/scripts/faktavakt.py ORIGINAL NYTEXT
+   python scripts/faktavakt.py ORIGINAL NYTEXT
    ```
 6. **Kör `granska` på resultatet.** Är AI-lukten inte tydligt lägre än i
    originalet: lämna tillbaka originalet orört och säg att texten redan var bra.
