@@ -34,7 +34,7 @@ Det finns också en genväg som inte är beskriven som installationsväg i Anthr
 Make this a skill and name it svensk-humanizer: https://github.com/jhwaijeh-gif/humanizer-svenska
 ```
 
-Med en annan skill hämtade Claude filerna från GitHub och visade ett kort med knappen **Save skill**, som man trycker på själv. Med den här skillen har jag inte provat det. Uppladdning av ZIP är den väg som är dokumenterad.
+Jag har provat det här på ett Max-konto: Claude hämtade filerna från GitHub och visade ett kort med knappen **Save skill**, som man trycker på själv. Därefter låg skillen kvar under Customize > Skills och syntes som `/svensk-humanizer` i en ny chatt. Uppladdning av ZIP är den väg som Anthropic dokumenterar.
 
 ### Claude Code
 
@@ -69,8 +69,8 @@ Allt som inte står som testat är ej testat.
 |---|---|
 | Mätdelen på lokala texter (`python scripts/slopkoll.py`) | Testat, se [`test/`](test/) |
 | Claude.ai, uppladdning av ZIP | Ej testat |
-| Claude.ai, via chatten | Ej testat |
-| Claude Code, plugin | Ej testat |
+| Claude.ai, via chatten | Testat 2026-10-11 på ett Max-konto: hämtades från GitHub, sparades och syntes som `/svensk-humanizer` |
+| Claude Code, plugin | Manifesten godkända av `claude plugin validate`, installationen ej testad |
 | `npx skills add` | Ej testat |
 | ChatGPT | Ej testat, och kräver ett konto där skills finns |
 
