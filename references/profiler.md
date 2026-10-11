@@ -16,9 +16,8 @@ Mejl till kund eller prospekt.
 - Kräver avsändar-vi och läsartilltal
 - Lix 25 till 42
 
-**Det som fäller ett svenskt kundmejl:** artighetsfrasen före ärendet ("hoppas
-att allt är bra"), den undergivna avslutningen ("tveka inte att höra av dig"),
-och en signatur längre än brödtexten.
+**Det som fäller ett svenskt kundmejl:** den undergivna avslutningen ("tveka
+inte att höra av dig") och en signatur längre än brödtexten.
 
 Ett förstakontaktmejl ska däremot presentera avsändaren. Det är information,
 inte utfyllnad. Regeln mot uppvärmning gäller garderingen, inte namnet.
