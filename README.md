@@ -22,7 +22,7 @@ Den hjälper inte text att undgå AI-detektorer, den anger aldrig hur sannolikt 
 
 ## Installation
 
-Skillen heter `svensk-humanizer`. Den behöver Python 3.8 eller senare för mätdelen. Inga paket och ingen nätverkstrafik, allt körs lokalt.
+Skillen heter `svensk-humanizer`. Den behöver Python 3.8 eller senare för mätdelen. Skripten har inga beroenden och gör inga nätverksanrop. I Claude Code och Codex körs de på din dator, i Claude.ai och ChatGPT i tjänstens egen miljö. Texten du ber om hjälp med går alltid till modellen.
 
 ### Claude (Claude.ai och Claude Desktop)
 

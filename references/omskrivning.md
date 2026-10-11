@@ -110,7 +110,7 @@ punkten, eller på en uppmaning.
 Ta bort ett av två osäkerhetsord, eller precisera.
 
 > **Före:** Det kan potentiellt vara så att detta i många fall fungerar.
-> **Efter:** Det fungerar för byråer under tjugo anställda.
+> **Efter:** Det kan fungera i många fall.
 
 Undantag: myndighetstext och rapport, där förbehållet kan vara rättsligt
 nödvändigt. Låt det stå och säg varför.
@@ -123,7 +123,7 @@ Dela där.
 > **Före:** Många gånger går det att effektivisera processer som tidigare krävde
 > omfattande manuellt arbete, vilket i sin tur leder till att medarbetarna kan
 > fokusera på mer strategiska initiativ.
-> **Efter:** Processerna krävde manuellt arbete förut. Nu gör de inte det.
+> **Efter:** Processer som tidigare krävde omfattande manuellt arbete går att effektivisera. Medarbetarna kan då fokusera på mer strategiska initiativ.
 
 ### Jämn puls
 
@@ -156,7 +156,7 @@ Gäller inte rapport och jobbansökan, där en annan avsändare är rätt.
 Skriv svaret i rubriken.
 
 > **Före:** Hur fungerar det?
-> **Efter:** Tre steg från beställning till leverans
+> **Efter:** Så går en beställning till
 
 ### Anglicism
 

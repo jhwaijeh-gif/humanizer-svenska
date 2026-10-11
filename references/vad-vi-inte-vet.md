@@ -67,7 +67,7 @@ en språkmodell lär sig. Draget togs medvetet bort ur verktyget.
 ### Engelska ordlistan i översättning
 
 "Delve", "intricate", "meticulous", "testament", "realm", "tapestry". De är
-välbelagda på engelska, med frekvensratio upp till 25 gånger i vetenskapliga
+välbelagda på engelska, med frekvensratio på mer än 25 gånger i vetenskapliga
 abstracts.
 
 **Går inte att översätta rakt av.** Svensk LLM-output genereras inte genom

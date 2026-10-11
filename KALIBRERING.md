@@ -8,7 +8,8 @@ Lägsta spridning i meningslängd bland dem var 5,5 ord, och verktygets tröskel
 låg på 6,0 till 7,0 beroende på profil. Den flaggade alltså korrekt mänsklig
 svenska. Trösklarna sänktes till 5,0. Samma test visade att LiU-mätningens
 rytmfynd inte replikerar mot en modell från 2026, varför rytmen vägdes ner från
-25 till 12 poäng. Se `../test/RESULTAT.md`.
+25 till 12 poäng. Se
+https://github.com/jhwaijeh-gif/humanizer-svenska/blob/main/test/RESULTAT.md.
 
 Det står i utdatan varje gång verktyget körs, och det står här. Det är den
 viktigaste begränsningen och den ska inte döljas.
@@ -24,7 +25,7 @@ studierna ger **riktning**, inte trösklar.
 | AI-texter använde färre unika ord | Flaggar under 0,70 i rullande fönster. **Tröskeln är vald, inte mätt.** |
 | AI-texter saknade avsändar-vi (sex myndighetstexter) | Kräver vi i tre av sju profiler (kundmejl, sajttext och myndighet). **Urvalet är omdöme, inte mätning.** |
 
-Viktningen i poängen är också vald. Att anglicismer får högst 20 poäng och
+Viktningen i poängen är också vald. Att anglicismer får högst 25 poäng och
 tilltal högst 12 bygger på en bedömning av hur mycket de stör en svensk läsare,
 inte på data.
 

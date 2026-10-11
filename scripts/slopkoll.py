@@ -32,7 +32,7 @@ text låter som AI, och det är vad verktyget är byggt för.
 
 Det fångar INTE svenska som en modell skrivit med omsorg. Mätt i ett blindtest
 mot tio riksdagsmotioner från 2020: AI-texter skrivna med omsorg fick samma
-median som människorna. Se test/RESULTAT.md. Verktyget är en stilredigerare,
+median som människorna. Se https://github.com/jhwaijeh-gif/humanizer-svenska/blob/main/test/RESULTAT.md. Verktyget är en stilredigerare,
 ingen detektor, och det säger aldrig hur sannolikt det är att en text är
 AI-genererad.
 
@@ -563,8 +563,9 @@ def kolla_tankstreckstathet(rader, matt):
     """
     Det korta tankstrecket är korrekt svenska och flaggas inte som fel. Men
     överanvändning är ett igenkänt AI-drag. En svensk rekryterare på Manpower
-    formulerar tröskeln så här: två eller tre gånger i en text är okej, vid
-    femte förekomsten vet man att det sannolikt är AI-skrivet.
+    formulerar tröskeln för det långa strecket så här: två eller tre gånger i
+    en text är okej, vid femte förekomsten vet man att det sannolikt är
+    AI-skrivet. Verktyget lånar tröskeln för det korta tankstrecket.
 
     Det långa em-strecket hanteras separat och är alltid fel på svenska.
     """
@@ -579,14 +580,14 @@ def kolla_tankstreckstathet(rader, matt):
         return []
 
     return [Traff(0, "ai", "observerat", "Tankstreck %d gånger" % antal,
-                  "Tankstrecket är korrekt svenska och inget fel i sig. Men %d gånger i en text på %d ord är för tätt. Svenska rekryterare pekar ut just det som en AI-flagga: två eller tre gånger går bra, vid femte vet man."
+                  "Tankstrecket är korrekt svenska och inget fel i sig. Men %d gånger i en text på %d ord är för tätt. Tröskeln är lånad från en rekryterare som talar om det långa strecket och är inte uppmätt för det korta."
                   % (antal, matt["antal_ord"]),
                   "Behåll de två eller tre som bär, byt resten mot komma, kolon eller punkt.",
                   "", 3, "struktur")]
 
 
 def kolla_rytm(matt, profil):
-    """De tre enda drag som är uppmätta på svensk AI-text."""
+    """Meningslängd och ordvariation är uppmätta på svensk AI-text (LiU 2025). Jämn rytm är en iakttagelse."""
     t = []
     if matt["antal_meningar"] < 5 or matt["antal_ord"] < MIN_ORD_FOR_POANG:
         return t
@@ -604,8 +605,8 @@ def kolla_rytm(matt, profil):
     # den läser som en människa, inte som en maskin.
     if (matt["spridning_meningslangd"] < profil["min_spridning"]
             and matt["median_meningslangd"] >= 12):
-        t.append(Traff(0, "ai", "matt", "Jämn puls",
-                       "Meningslängden varierar med %.1f ord i standardavvikelse. Under %.1f läser texten som maskin. Mänsklig svenska hoppar mellan korta och långa meningar."
+        t.append(Traff(0, "ai", "observerat", "Jämn puls",
+                       "Meningslängden varierar med %.1f ord i standardavvikelse. Under %.1f är rytmen jämn, vilket språkarbetare pekar ut som maskinlikt. Det är en iakttagelse, ingen mätning, och verktygets eget blindtest pekade åt andra hållet."
                        % (matt["spridning_meningslangd"], profil["min_spridning"]),
                        "Lägg in en mening på fem ord efter en på tjugofem. Variationen är signaturen, inte medellängden.",
                        "", 4, "rytm"))
@@ -755,7 +756,8 @@ def rakna_poang(traffar, matt):
 
     # Viktningen är omgjord efter blindtestet 2026-09-19. Rytmen vägde tyngst
     # av allt och byggde på LiU-mätningen från 2025, där AI-svenska hade
-    # längre och jämnare meningar än mänsklig svenska. Mot en modell från 2026
+    # längre meningar än mänsklig svenska. Att AI också varierar mindre var
+    # verktygets tolkning, studien mätte det inte. Mot en modell från 2026
     # replikerade det inte: AI-texterna varierade MER än riksdagsledamöterna.
     # Rytmen är därför nedflyttad till en biroll. Det som faktiskt fångar den
     # uppenbara AI-tonen är anglicismerna, fraserna och strukturen, och de har

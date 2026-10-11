@@ -25,13 +25,16 @@ Arifovic, Linköpings universitet 2025. 57 texter av svenska lärarstudenter mot
 | Vanligaste meningslängd | 19 ord | 28 ord |
 | Median | 20 ord | 23 ord |
 
-**Det viktiga är inte medellängden utan variationen.** Mänsklig svenska hoppar
-mellan korta och långa meningar. AI håller jämn puls. En mening på sex ord
-efter en på tjugofem är den mänskliga signaturen.
+**Det som är uppmätt är längden, inte variationen.** Uppsatsen mäter typvärde
+och median för ord per mening, inte hur mycket meningslängden varierar. Att
+mänsklig svenska hoppar mer mellan korta och långa meningar är en iakttagelse
+som ingen svensk studie har mätt, och verktygets eget blindtest pekade åt andra
+hållet:
+https://github.com/jhwaijeh-gif/humanizer-svenska/blob/main/test/RESULTAT.md
 
-Observera att låg spridning i en text av genomgående korta meningar inte är ett
-AI-tecken. Det är matematik. Verktyget flaggar bara jämn puls när meningarna
-samtidigt är långa.
+Verktyget flaggar därför jämn rytm som `[observerat]`, och bara när meningarna
+samtidigt är långa. Låg spridning i en text av genomgående korta meningar är
+inte ett AI-tecken. Det är matematik.
 
 Begränsning som författaren själv skriver ut: en texttyp, en modell. Inte
 generaliserbart till all svensk text.
@@ -42,7 +45,8 @@ https://www.diva-portal.org/smash/get/diva2:1971262/FULLTEXT01.pdf
 
 Samma studie. AI-texterna använde 4 468 unika ord mot människornas 4 861,
 trots att AI-materialet var 25 procent större. Shannonentropi 9,1598 mot
-9,3233, statistiskt säkerställt, p ungefär 0,000004.
+9,3233. Skillnaden i normaliserad entropi per text var statistiskt
+säkerställd, p ungefär 0,000004.
 
 **Höj variationen genom att stryka utfyllnad, aldrig genom att byta termer.**
 Synonymväxling på facktermer bryter textbindningen och är i sig ett AI-drag
@@ -165,15 +169,14 @@ hjälper", "Som en AI-språkmodell". Ska aldrig finnas i en färdig text.
 
 ## Vad en ordlista inte kan
 
-Mattias Wahde, som byggt den svenska klassificerare som fann att 9,4 procent
-av riksdagsmotionerna 2025/26 innehöll minst ett stycke med AI-assisterat
-innehåll, säger
-uttryckligen att "det går inte att säga att enskilda ord är AI-ord, det är
-mer komplext än så".
+Mattias Wahde, en av forskarna bakom den klassificerare som fann att 9,4
+procent av riksdagsmotionerna 2025/26 innehöll minst ett stycke med
+AI-assisterat innehåll, säger att det inte går att säga att enskilda ord är
+AI-ord och att det är mer komplext än så.
 
 En humanizer som bara byter ut ord på en svartlista flyttar problemet, den
-löser det inte. Meningslängdsvariationen och vi-perspektivet är de två ingrepp
-som har mätstöd. Resten är omdöme.
+löser det inte. Avsändar-vi är det enda ingrepp som har mätstöd på svenska,
+och meningslängden är uppmätt men har inte replikerats. Resten är omdöme.
 
 https://arxiv.org/abs/2606.14209
 

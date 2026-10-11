@@ -38,8 +38,9 @@ Mot standardregistret ger bästa möjliga tröskel 13 rätt av 20, mot 10 för r
 slump. Det är inte en detektor och ska aldrig användas som en.
 
 **Rytmsignalen vände.** Verktyget byggde på Arifovic, LiU 2025, som fann att
-AI-svenska hade längre och jämnare meningar än mänsklig svenska. Den studien
-använde Gemini 2.5 Pro. Mot en modell från 2026 replikerade fyndet inte:
+AI-svenska hade längre meningar än mänsklig svenska. Att AI också varierar
+mindre var verktygets tolkning, studien mätte det inte. Den studien använde
+Gemini 2.5 Pro. Mot en modell från 2026 replikerade fyndet inte:
 
 | | Medianmening | Spridning | Lix |
 |---|---|---|---|
@@ -66,7 +67,7 @@ svenska är värre än inget verktyg.
 | Text | AI-lukt | Regelfel |
 |---|---|---|
 | Svensk text i chattregister, med marknadsföringsslop (profil `allman`) | **85** | 6 |
-| Svensk text skriven av en människa | **0** | 0 |
+| Svensk text i mänskligt register (testfixtur, `test/mansklig-text.md`) | **0** | 0 |
 
 Skillnaden mellan 85 och 0 är verklig och det är den skillnaden användare
 menar när de säger att något låter som AI.

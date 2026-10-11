@@ -1,9 +1,6 @@
 ---
 name: svensk-humanizer
-description: >
-  Tar AI-lukten ur svensk text: engelsk typografi, översatta konstruktioner,
-  tomma formuleringar och maskinrytm. Granskar, humaniserar och korrekturläser
-  kundmejl, sajttext, inlägg och rapporter.
+description: "Tar AI-lukten ur svensk text: engelsk typografi, översatta konstruktioner, tomma formuleringar och maskinrytm. Granskar, humaniserar och korrekturläser kundmejl, sajttext, inlägg och rapporter."
 license: MIT
 metadata:
   version: 0.3.0
@@ -23,7 +20,8 @@ jobbansökan och rapporter.
 
 **Vad den gör:** svensk stilredigering. Den fångar den uppenbara AI-tonen,
 alltså chattregistret och marknadsföringsslopet. Det är mätt: sådan text får
-85 av 100 med profilen `allman`, mänsklig text får 0.
+85 av 100 med profilen `allman`, en jämförelsetext i mänskligt register får 0
+(se `test/RESULTAT.md` i repot).
 
 **Vad den inte gör:** hittar svenska som en modell skrivit med omsorg. I
 blindtest mot tio riksdagsmotioner från 2020 fick omsorgsfulla AI-texter samma
@@ -39,6 +37,9 @@ säg att skillen inte gör det och erbjud stilredigeringen i stället.
 |---|---|---|
 | **Korrekthet** | Brott mot svenska skrivregler. Decimalkomma, citattecken, rubrikversaler, genitiv utan apostrof, gemener på månader och veckodagar. Det långa em-strecket `—` är alltid fel, det korta tankstrecket `–` är tillåtet. | Rätt eller fel svenska, oberoende av vem som skrivit texten. Ska vara 0. Har ingenting med AI att göra. |
 | **AI-lukt** | Drag som gör att texten läser som maskin. | 0 till 100, lägre är bättre. Varje fynd bär sin bevisgrad. |
+
+Regelfelen räknas för sig, men engelsk typografi (till exempel decimalpunkt och
+citattecken) ger också upp till 8 poäng i AI-lukten.
 
 Bevisgraderna inom AI-lukt:
 
@@ -162,5 +163,5 @@ Dessa gäller även när användaren ber om motsatsen.
 - Säg aldrig "X procent AI". Talet är ett bearbetningsbehov, inte en sannolikhet.
 - Hitta aldrig på siffror, källor eller studier. Saknas källa skrivs inget.
 - Påstå aldrig att ett drag är uppmätt när det är observerat.
-- Skriptet körs lokalt, men texten du får se går till en modell. Säg det om
-  användaren klistrar in något känsligt.
+- Skripten gör inga nätverksanrop, men texten du får se går till en modell.
+  Säg det om användaren klistrar in något känsligt.

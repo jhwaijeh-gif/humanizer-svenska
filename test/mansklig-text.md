@@ -10,4 +10,4 @@ Om du står inför samma sak: kör parallellt i ett kvartal, inte en månad. Be 
 
 En sak blev bättre än väntat. Personalen lärde sig systemet på en vecka. Vi hade budgeterat för utbildning i tre dagar och behövde en. Det var trevligt att ha fel åt rätt håll för en gångs skull.
 
-Ring mig på 070-123 45 67 om du vill höra mer. Jag svarar gärna på frågor från andra som funderar.
+Ring mig på 070-174 06 05 om du vill höra mer. Jag svarar gärna på frågor från andra som funderar.
